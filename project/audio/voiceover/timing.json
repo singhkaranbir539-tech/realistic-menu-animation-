@@ -1,0 +1,379 @@
+{
+ "lines": [
+  {
+   "text": "Every night, when you fall asleep, your body begins an extraordinary transformation.",
+   "start": 0.3,
+   "end": 5.029,
+   "speed": 1.1,
+   "asr_transcript": " every night when you fall asleep your body begins in extraordinary transformation",
+   "asr_match_ratio": 0.917,
+   "words": [
+    {
+     "word": "Every",
+     "start": 0.3,
+     "end": 0.379
+    },
+    {
+     "word": "night,",
+     "start": 0.379,
+     "end": 0.798
+    },
+    {
+     "word": "when",
+     "start": 0.798,
+     "end": 1.217
+    },
+    {
+     "word": "you",
+     "start": 1.217,
+     "end": 1.636
+    },
+    {
+     "word": "fall",
+     "start": 1.636,
+     "end": 2.055
+    },
+    {
+     "word": "asleep,",
+     "start": 2.055,
+     "end": 2.474
+    },
+    {
+     "word": "your",
+     "start": 2.474,
+     "end": 2.894
+    },
+    {
+     "word": "body",
+     "start": 2.894,
+     "end": 3.313
+    },
+    {
+     "word": "begins",
+     "start": 3.313,
+     "end": 3.732
+    },
+    {
+     "word": "an",
+     "start": 3.732,
+     "end": 4.151
+    },
+    {
+     "word": "extraordinary",
+     "start": 4.151,
+     "end": 4.57
+    },
+    {
+     "word": "transformation.",
+     "start": 4.57,
+     "end": 5.029
+    }
+   ]
+  },
+  {
+   "text": "Your brain cycles through different stages, organizing memories and processing information.",
+   "start": 5.2,
+   "end": 10.814,
+   "speed": 0.96,
+   "asr_transcript": " your brain cycles through different stages organizing memories and processing information",
+   "asr_match_ratio": 1.0,
+   "words": [
+    {
+     "word": "Your",
+     "start": 5.2,
+     "end": 5.398
+    },
+    {
+     "word": "brain",
+     "start": 5.398,
+     "end": 5.935
+    },
+    {
+     "word": "cycles",
+     "start": 5.935,
+     "end": 6.473
+    },
+    {
+     "word": "through",
+     "start": 6.473,
+     "end": 7.011
+    },
+    {
+     "word": "different",
+     "start": 7.011,
+     "end": 7.548
+    },
+    {
+     "word": "stages,",
+     "start": 7.548,
+     "end": 8.086
+    },
+    {
+     "word": "organizing",
+     "start": 8.086,
+     "end": 8.623
+    },
+    {
+     "word": "memories",
+     "start": 8.623,
+     "end": 9.161
+    },
+    {
+     "word": "and",
+     "start": 9.161,
+     "end": 9.699
+    },
+    {
+     "word": "processing",
+     "start": 9.699,
+     "end": 10.236
+    },
+    {
+     "word": "information.",
+     "start": 10.236,
+     "end": 10.814
+    }
+   ]
+  },
+  {
+   "text": "Deep inside, a cleansing system helps move waste products out of brain tissue.",
+   "start": 11.15,
+   "end": 15.947,
+   "speed": 0.94,
+   "asr_transcript": " deep inside a cleansing system helps move waste products out of brain tissue",
+   "asr_match_ratio": 1.0,
+   "words": [
+    {
+     "word": "Deep",
+     "start": 11.15,
+     "end": 11.202
+    },
+    {
+     "word": "inside,",
+     "start": 11.202,
+     "end": 11.594
+    },
+    {
+     "word": "a",
+     "start": 11.594,
+     "end": 11.986
+    },
+    {
+     "word": "cleansing",
+     "start": 11.986,
+     "end": 12.378
+    },
+    {
+     "word": "system",
+     "start": 12.378,
+     "end": 12.77
+    },
+    {
+     "word": "helps",
+     "start": 12.77,
+     "end": 13.162
+    },
+    {
+     "word": "move",
+     "start": 13.162,
+     "end": 13.554
+    },
+    {
+     "word": "waste",
+     "start": 13.554,
+     "end": 13.947
+    },
+    {
+     "word": "products",
+     "start": 13.947,
+     "end": 14.339
+    },
+    {
+     "word": "out",
+     "start": 14.339,
+     "end": 14.731
+    },
+    {
+     "word": "of",
+     "start": 14.731,
+     "end": 15.123
+    },
+    {
+     "word": "brain",
+     "start": 15.123,
+     "end": 15.515
+    },
+    {
+     "word": "tissue.",
+     "start": 15.515,
+     "end": 15.947
+    }
+   ]
+  },
+  {
+   "text": "Your heartbeat and breathing slow, while your body regulates hormones and supports tissue repair.",
+   "start": 17.05,
+   "end": 22.808,
+   "speed": 0.94,
+   "asr_transcript": " your heart beat and breathing slow while your body regulates horn moans and supports tissue repair",
+   "asr_match_ratio": 0.8,
+   "words": [
+    {
+     "word": "Your",
+     "start": 17.05,
+     "end": 17.143
+    },
+    {
+     "word": "heartbeat",
+     "start": 17.143,
+     "end": 17.575
+    },
+    {
+     "word": "and",
+     "start": 17.575,
+     "end": 18.008
+    },
+    {
+     "word": "breathing",
+     "start": 18.008,
+     "end": 18.441
+    },
+    {
+     "word": "slow,",
+     "start": 18.441,
+     "end": 18.874
+    },
+    {
+     "word": "while",
+     "start": 18.874,
+     "end": 19.306
+    },
+    {
+     "word": "your",
+     "start": 19.306,
+     "end": 19.739
+    },
+    {
+     "word": "body",
+     "start": 19.739,
+     "end": 20.172
+    },
+    {
+     "word": "regulates",
+     "start": 20.172,
+     "end": 20.605
+    },
+    {
+     "word": "hormones",
+     "start": 20.605,
+     "end": 21.037
+    },
+    {
+     "word": "and",
+     "start": 21.037,
+     "end": 21.47
+    },
+    {
+     "word": "supports",
+     "start": 21.47,
+     "end": 21.903
+    },
+    {
+     "word": "tissue",
+     "start": 21.903,
+     "end": 22.336
+    },
+    {
+     "word": "repair.",
+     "start": 22.336,
+     "end": 22.808
+    }
+   ]
+  },
+  {
+   "text": "And while you dream, your brain remains active. Sleep isn't wasted time. It's essential maintenance.",
+   "start": 22.8,
+   "end": 29.565,
+   "speed": 1.1600000000000001,
+   "asr_transcript": " and while you dream your brain remains active sleep isn't wasted time it's essential maintenance",
+   "asr_match_ratio": 1.0,
+   "words": [
+    {
+     "word": "And",
+     "start": 22.8,
+     "end": 22.931
+    },
+    {
+     "word": "while",
+     "start": 22.931,
+     "end": 23.402
+    },
+    {
+     "word": "you",
+     "start": 23.402,
+     "end": 23.873
+    },
+    {
+     "word": "dream,",
+     "start": 23.873,
+     "end": 24.344
+    },
+    {
+     "word": "your",
+     "start": 24.344,
+     "end": 24.815
+    },
+    {
+     "word": "brain",
+     "start": 24.815,
+     "end": 25.286
+    },
+    {
+     "word": "remains",
+     "start": 25.286,
+     "end": 25.757
+    },
+    {
+     "word": "active.",
+     "start": 25.757,
+     "end": 26.228
+    },
+    {
+     "word": "Sleep",
+     "start": 26.228,
+     "end": 26.699
+    },
+    {
+     "word": "isn't",
+     "start": 26.699,
+     "end": 27.17
+    },
+    {
+     "word": "wasted",
+     "start": 27.17,
+     "end": 27.641
+    },
+    {
+     "word": "time.",
+     "start": 27.641,
+     "end": 28.112
+    },
+    {
+     "word": "It's",
+     "start": 28.112,
+     "end": 28.583
+    },
+    {
+     "word": "essential",
+     "start": 28.583,
+     "end": 29.054
+    },
+    {
+     "word": "maintenance.",
+     "start": 29.054,
+     "end": 29.565
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+# large / regenerable artefacts (see production_notes.txt for how to regenerate)
+tools/models/
+tools/asr/
+assets/human_anatomy/raw/
+assets/human_anatomy/*.ply
+assets/human_anatomy/*.npy
+assets/brain/*.ply
+assets/brain/*.npy
+renders/scene_renders/
+renders/final_video/preview/
+*.blend1
