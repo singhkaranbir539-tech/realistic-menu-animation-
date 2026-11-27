@@ -63,7 +63,12 @@ DEVIATIONS FROM THE SPEC, AND WHY
   4. Narration voice is a neural TTS voice, not a human narrator (see AUDIO).
   5. Resolution: see RENDER SETTINGS (720p render, upscaled to 4K).
   6. Frame rate of rendering: most shots rendered at 15 fps and interpolated to 30 fps (see above).
-  7. Video bitrate capped at 22 Mbps (crf 15 otherwise) so the 4K file stays under 100 MB.
+  7. Scene 4 re-edit: QC found jump cuts where the camera passed a white blood cell and dived into
+     the muscle fibres faster than 15 fps interpolation could bridge. The edit now uses the vessel
+     flight (rendered frames 1-100), dissolves through the vessel wall into the muscle-fibre shot
+     (frames 126-148), slowed ~0.21x by motion-compensated interpolation (scripts/edit_scene04.py).
+     The final close-up dive into a single fibre was dropped.
+  8. Video bitrate capped at 22 Mbps (crf 15 otherwise) so the 4K file stays under 100 MB.
 
 AUDIO
   * Narration: Kokoro-82M neural TTS (Apache-2.0), run locally; blended style vector
