@@ -24,6 +24,9 @@ for name in sel:
             os.remove(os.path.join(od, f))
     log = open(os.path.join(ROOT, f"renders/scene_renders/{name}.log"), "a")
     print(f"[{time.strftime('%H:%M:%S')}] rendering {name}", flush=True)
-    r = subprocess.run([sys.executable, os.path.join(ROOT, JOBS[name][0])] + JOBS[name][1:], cwd=ROOT, stdout=log, stderr=subprocess.STDOUT)
+    env = dict(os.environ)
+    if name != "scene_02":
+        env["FRAME_STEP"] = "2"; env["FAST"] = "1"
+    r = subprocess.run([sys.executable, os.path.join(ROOT, JOBS[name][0])] + JOBS[name][1:], cwd=ROOT, stdout=log, stderr=subprocess.STDOUT, env=env)
     n = len([f for f in os.listdir(os.path.join(ROOT, "renders/scene_renders", name)) if f.endswith(".png")])
     print(f"[{time.strftime('%H:%M:%S')}] {name}: exit {r.returncode}, {n} frames, {time.time()-t0:.0f}s", flush=True)

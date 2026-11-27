@@ -200,11 +200,12 @@ ph = n.new("ShaderNodeMath"); ph.operation = "MULTIPLY"; l.new(rA.outputs["Fac"]
 sp = n.new("ShaderNodeMath"); sp.operation = "MULTIPLY_ADD"; l.new(fr.outputs[0], sp.inputs[0]); sp.inputs[1].default_value = 0.045; l.new(ph.outputs[0], sp.inputs[2])
 dx = n.new("ShaderNodeMath"); dx.operation = "SUBTRACT"; l.new(sp.outputs[0], dx.inputs[0]); l.new(sA.outputs["Fac"], dx.inputs[1])
 md = n.new("ShaderNodeMath"); md.operation = "FLOORED_MODULO"; l.new(dx.outputs[0], md.inputs[0]); md.inputs[1].default_value = 3.2
-win = n.new("ShaderNodeMapRange"); win.inputs["From Min"].default_value = 0.0; win.inputs["From Max"].default_value = 0.12
+win = n.new("ShaderNodeMapRange"); win.inputs["From Min"].default_value = 0.0; win.inputs["From Max"].default_value = 0.07
 win.inputs["To Min"].default_value = 1.0; win.inputs["To Max"].default_value = 0.0
 l.new(md.outputs[0], win.inputs["Value"])
 nh = n.new("ShaderNodeMath"); nh.operation = "SUBTRACT"; nh.inputs[0].default_value = 1.0; l.new(hA.outputs["Fac"], nh.inputs[1])
-gen = n.new("ShaderNodeMath"); gen.operation = "MULTIPLY"; l.new(win.outputs[0], gen.inputs[0]); l.new(nh.outputs[0], gen.inputs[1])
+gen0 = n.new("ShaderNodeMath"); gen0.operation = "MULTIPLY"; l.new(win.outputs[0], gen0.inputs[0]); l.new(nh.outputs[0], gen0.inputs[1])
+gen = n.new("ShaderNodeMath"); gen.operation = "MULTIPLY"; l.new(gen0.outputs[0], gen.inputs[0]); l.new(axA.outputs["Fac"], gen.inputs[1])
 # hero axon: keyframed front
 hf = n.new("ShaderNodeValue"); hf.name = "HeroFront"; hf.outputs[0].default_value = -1
 hd = n.new("ShaderNodeMath"); hd.operation = "SUBTRACT"; l.new(hf.outputs[0], hd.inputs[0]); l.new(sA.outputs["Fac"], hd.inputs[1])
@@ -215,7 +216,7 @@ l.new(hd.outputs[0], hw2.inputs["Value"])
 hwin = n.new("ShaderNodeMath"); hwin.operation = "MULTIPLY"; l.new(hw.outputs[0], hwin.inputs[0]); l.new(hw2.outputs[0], hwin.inputs[1])
 hsel = n.new("ShaderNodeMath"); hsel.operation = "MULTIPLY"; l.new(hwin.outputs[0], hsel.inputs[0]); l.new(hA.outputs["Fac"], hsel.inputs[1])
 tot = n.new("ShaderNodeMath"); tot.operation = "ADD"; l.new(gen.outputs[0], tot.inputs[0]); l.new(hsel.outputs[0], tot.inputs[1])
-gain = n.new("ShaderNodeValue"); gain.name = "APGain"; gain.outputs[0].default_value = 4.0
+gain = n.new("ShaderNodeValue"); gain.name = "APGain"; gain.outputs[0].default_value = 3.0
 st_ = n.new("ShaderNodeMath"); st_.operation = "MULTIPLY"; l.new(tot.outputs[0], st_.inputs[0]); l.new(gain.outputs[0], st_.inputs[1])
 b.inputs["Emission Color"].default_value = (0.45, 0.8, 1.0, 1); l.new(st_.outputs[0], b.inputs["Emission Strength"])
 fogwrap(m)

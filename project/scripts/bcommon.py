@@ -188,6 +188,10 @@ def value_node_driver(node_input, expr):
 def output_setup(scene, outdir, start, end):
     os.makedirs(outdir, exist_ok=True)
     scene.frame_start = start; scene.frame_end = end
+    scene.frame_step = int(os.environ.get("FRAME_STEP", "1"))
+    if os.environ.get("FAST"):
+        scene.cycles.samples = min(scene.cycles.samples, 16)
+        scene.cycles.adaptive_threshold = max(scene.cycles.adaptive_threshold, 0.06)
     scene.render.filepath = os.path.join(outdir, "f_")
     scene.render.use_file_extension = True
 

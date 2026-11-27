@@ -21,11 +21,11 @@ FONT_SMALL = os.path.join(ROOT, "assets/fonts/Montserrat_500Medium.ttf")
 
 # ------------------------------------------------------------------ edit decision list
 # (shot, first output frame, number of frames, first source frame)
-SHOTS = [("scene_01a", 0, 64, 1), ("scene_01b", 56, 104, 1), ("scene_02", 150, 156, 1), ("shot2b", 296, 40, 1),
-         ("shot3", 330, 186, 1), ("scene_04", 506, 186, 1), ("scene_05", 690, 210, 1)]
+SHOTS = [("scene_01a", 0, 64, 1), ("scene_01b", 56, 104, 1), ("scene_02", 150, 146, 1), ("shot2b", 286, 40, 1),
+         ("shot3", 326, 186, 1), ("scene_04", 506, 186, 1), ("scene_05", 690, 210, 1)]
 # transitions: (outgoing, incoming, start, end, kind)
 TRANS = [("scene_01a", "scene_01b", 56, 64, "skin"), ("scene_01b", "scene_02", 150, 160, "zoom"),
-         ("scene_02", "shot2b", 296, 306, "zoom"), ("shot2b", "shot3", 326, 336, "flash"),
+         ("scene_02", "shot2b", 286, 296, "zoom"), ("shot2b", "shot3", 322, 334, "flash"),
          ("shot3", "scene_04", 506, 516, "vessel"), ("scene_04", "scene_05", 682, 692, "pull")]
 TITLES = [("YOUR BODY NEVER\nTRULY SLEEPS", 0.7, 4.3), ("YOUR BRAIN\nSTAYS ACTIVE", 5.7, 9.7),
           ("MEMORIES PROCESSED.\nWASTE CLEARED.", 11.7, 15.9), ("REPAIR. RECOVERY.\nRESTORATION.", 17.6, 21.9),
@@ -39,7 +39,10 @@ def src(shot, i):
     for nm, o0, n, s0 in SHOTS:
         if nm == shot:
             k = min(max(i - o0, 0), n - 1) + s0
-            p = os.path.join(R, nm, f"f_{k:04d}.png")
+            d = os.path.join(R, nm + "_30") if os.path.isdir(os.path.join(R, nm + "_30")) else os.path.join(R, nm)
+            p = os.path.join(d, f"f_{k:04d}.png")
+            while not (os.path.exists(p) and os.path.getsize(p) > 0) and k > 1:
+                k -= 1; p = os.path.join(d, f"f_{k:04d}.png")
             if p not in _cache:
                 if len(_cache) > 12:
                     _cache.pop(next(iter(_cache)))
