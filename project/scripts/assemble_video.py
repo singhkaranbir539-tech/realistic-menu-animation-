@@ -310,7 +310,7 @@ def main():
     audio = os.path.join(ROOT, "audio/final_mix.wav")
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{OUTW}x{OUTH}", "-r", str(FPS),
            "-i", "-", "-i", audio, "-map", "0:v", "-map", "1:a",
-           "-c:v", "libx264", "-preset", "slow", "-crf", "15", "-profile:v", "high", "-level", "5.2", "-pix_fmt", "yuv420p",
+           "-c:v", "libx264", "-preset", "slow", "-crf", "15", "-maxrate", "22M", "-bufsize", "44M", "-profile:v", "high", "-level", "5.2", "-pix_fmt", "yuv420p",
            "-x264-params", "aq-mode=3:deblock=-1,-1",
            "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709", "-color_range", "tv",
            "-c:a", "aac", "-b:a", "320k", "-ar", "48000", "-ac", "2",

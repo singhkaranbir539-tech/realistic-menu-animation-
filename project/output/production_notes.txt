@@ -20,7 +20,15 @@ RENDER SETTINGS (all scenes)
   * Blender Cycles (CPU), path tracing, OpenImageDenoise (albedo+normal), adaptive sampling,
     22-28 samples/pixel (scene dependent), fast-GI approximation for bounce light, AgX view transform,
     camera motion blur, physical depth of field, Burley subsurface scattering on tissue/skin.
-  * Internal render resolution 720x1280 (9:16), 30 fps, 16-bit PNG sequences.
+  * Sample counts actually used: scene 2 (brain) 28 spp at every frame (30 fps). All other shots
+    were re-rendered in a time-saving mode after the client asked to "finish it asap": at most
+    16 spp (adaptive threshold 0.06) and only every 2nd frame (15 fps). The in-between frames
+    were synthesised with FFmpeg motion-compensated interpolation (minterpolate mci/aobmc/bidir)
+    to rebuild 30 fps. LIMITATION: interpolated frames can show slight warping on fast or
+    overlapping motion (particles, thin neurites), and lower sample counts mean somewhat more
+    denoiser smoothing. At the end of each shot the final 1-2 frames repeat (no neighbour to
+    interpolate from); these frames mostly sit inside the cross-transitions.
+  * Internal render resolution 720x1280 (9:16), 16-bit PNG sequences.
     LIMITATION: native 2160x3840 Cycles rendering of 958 frames was not feasible on 4 CPU cores
     (measured 1-4 min per frame at 720p for the heavier shots). Frames are upscaled 3x to
     2160x3840 with Lanczos + light unsharp mask in compositing, then encoded. The file is true
@@ -54,6 +62,8 @@ DEVIATIONS FROM THE SPEC, AND WHY
   3. Hair is Blender particle hair (Principled Hair BSDF); it is kept in soft focus/low key.
   4. Narration voice is a neural TTS voice, not a human narrator (see AUDIO).
   5. Resolution: see RENDER SETTINGS (720p render, upscaled to 4K).
+  6. Frame rate of rendering: most shots rendered at 15 fps and interpolated to 30 fps (see above).
+  7. Video bitrate capped at 22 Mbps (crf 15 otherwise) so the 4K file stays under 100 MB.
 
 AUDIO
   * Narration: Kokoro-82M neural TTS (Apache-2.0), run locally; blended style vector
