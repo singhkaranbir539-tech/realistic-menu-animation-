@@ -1,0 +1,62 @@
+{
+ "duration": {
+  "pass": true,
+  "detail": "container 30.000s, video 30.000s, audio 30.000s"
+ },
+ "frame_count": {
+  "pass": true,
+  "detail": "900 frames"
+ },
+ "resolution": {
+  "pass": true,
+  "detail": "2160x3840 (9:16)"
+ },
+ "frame_rate": {
+  "pass": true,
+  "detail": "r=30/1 avg=30/1"
+ },
+ "video_codec": {
+  "pass": true,
+  "detail": "h264 High yuv420p 22.8 Mb/s"
+ },
+ "audio_codec": {
+  "pass": true,
+  "detail": "aac 48000 Hz 2 ch"
+ },
+ "playback_decode": {
+  "pass": true,
+  "detail": "full decode without errors"
+ },
+ "black_frames": {
+  "pass": true,
+  "detail": "black segments: [] (final fade from 29.5 s is intentional)"
+ },
+ "scene_transitions": {
+  "pass": true,
+  "detail": "hard scene-change detections (>0.25): [] - transitions are designed as dissolves/flashes"
+ },
+ "loudness": {
+  "pass": true,
+  "detail": "integrated -14.3 LUFS (target -14)"
+ },
+ "audio_clipping": {
+  "pass": true,
+  "detail": "true peak -1.2 dBTP"
+ },
+ "narration_present_and_intelligible": {
+  "pass": true,
+  "detail": "ASR match ratio per line on final mix: [0.92, 1.0, 1.0, 0.8, 1.0]"
+ },
+ "subtitle_sync": {
+  "pass": true,
+  "detail": "16 subtitle cues, max offset to a spoken word onset 0 ms"
+ },
+ "subtitles_cover_all_lines": {
+  "pass": true,
+  "detail": "every narration line has subtitle cues"
+ },
+ "all_scenes_present": {
+  "pass": true,
+  "detail": "mean/std per scene sample: {'scene1': (0.171, 0.19), 'scene1_anatomy': (0.172, 0.268), 'scene2': (0.096, 0.225), 'scene3': (0.282, 0.186), 'scene4': (0.175, 0.201), 'scene5': (0.189, 0.274)}"
+ }
+}
