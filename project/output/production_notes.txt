@@ -1,0 +1,97 @@
+WHAT HAPPENS INSIDE YOUR BODY WHEN YOU SLEEP? - The Secret Science of Sleep
+Production notes (honest record of what was actually done)
+==========================================================================
+
+DELIVERABLES
+  output/sleep_documentary_30s.mp4        final video (see qc_report.json for measured properties)
+  output/sleep_documentary_subtitles.srt  subtitles, timed from ASR word timestamps of the narration
+  output/qc_report.json                   automated quality-control results
+  output/qc_scene*.png                    one sampled frame per scene (from the final MP4)
+
+ENVIRONMENT ACTUALLY AVAILABLE
+  * Cloud container, 4 CPU cores, 15 GB RAM, NO GPU.
+  * Unreal Engine 5: NOT available (no GPU, no UE install possible). Fallback, as the spec allows:
+    Blender 5.3 (installed from PyPI as the `bpy` module) with the Cycles path tracer on CPU.
+  * FFmpeg 6 (system), Python 3.13 + numpy/scipy/scikit-image/nibabel/PIL.
+  * AI video generation was considered (OpenArt connector) but the account only has 33 free credits,
+    not enough for any video generation, so nothing generative was used for picture.
+
+RENDER SETTINGS (all scenes)
+  * Blender Cycles (CPU), path tracing, OpenImageDenoise (albedo+normal), adaptive sampling,
+    22-28 samples/pixel (scene dependent), fast-GI approximation for bounce light, AgX view transform,
+    camera motion blur, physical depth of field, Burley subsurface scattering on tissue/skin.
+  * Internal render resolution 720x1280 (9:16), 30 fps, 16-bit PNG sequences.
+    LIMITATION: native 2160x3840 Cycles rendering of 958 frames was not feasible on 4 CPU cores
+    (measured 1-4 min per frame at 720p for the heavier shots). Frames are upscaled 3x to
+    2160x3840 with Lanczos + light unsharp mask in compositing, then encoded. The file is true
+    2160x3840, but the picture detail corresponds to a 720p render.
+  * Lumen/Nanite (UE5-specific) do not exist in Blender; Cycles path tracing provides physically
+    based global illumination instead. Volumetric fog was replaced by distance-based haze inside the
+    shaders (and 2D light shafts in compositing) to keep render times feasible.
+
+ASSETS (all original, open-licensed, or procedurally generated - no stock footage)
+  * Human body, skeleton and organs: TotalSegmentator dataset v2.0.1, subject s1380 (whole-body CT
+    + 117 segmentation masks), CC BY 4.0, Wasserthal et al., "TotalSegmentator: Robust Segmentation
+    of 104 Anatomic Structures in CT Images", Radiology: AI 2023. Obtained via the pyvista data
+    repository. Meshes made by marching cubes (scripts/generate_assets.py).
+  * Folded cortex: FreeSurfer fsaverage5 pial surfaces + sulcal depth (distributed with nilearn),
+    fitted into the subject's skull.
+  * Neurons, astrocytes, perivascular space, red/white blood cells, platelets, muscle fibres,
+    capillaries, hormone molecules, bedroom: procedurally generated in Python (scene scripts).
+    Red blood cells use the Evans & Fung (1972) biconcave profile.
+  * Font: Montserrat (SIL Open Font License), from the @expo-google-fonts/montserrat npm package.
+
+DEVIATIONS FROM THE SPEC, AND WHY
+  1. Face. The TotalSegmentator CT is DEFACED for patient privacy (the face is a smooth blob).
+     A synthetic face would risk exactly the "artificial AI-looking face" the brief forbids, so the
+     sleeper lies on their side facing away from camera; the camera approaches the head/shoulder and
+     the comp "passes through the skin" into the anatomical view. In the glass-body shots the face
+     region of the shell is smoothed to a neutral form.
+  2. Arms / legs. CT patients are scanned with arms above the head and the scan ends at the upper
+     thighs. The arms were digitally removed from the skin shell; the duvet in scene 1 is shaped
+     over procedurally added legs; in the glass-body shots the anatomy fades out above the cut.
+     Scene 5 therefore shows a head-to-pelvis anatomical figure, not a full standing body.
+  3. Hair is Blender particle hair (Principled Hair BSDF); it is kept in soft focus/low key.
+  4. Narration voice is a neural TTS voice, not a human narrator (see AUDIO).
+  5. Resolution: see RENDER SETTINGS (720p render, upscaled to 4K).
+
+AUDIO
+  * Narration: Kokoro-82M neural TTS (Apache-2.0), run locally; blended style vector
+    (65% "am_michael" + 35% "am_onyx") for a deeper American male documentary read; per-line speed
+    fitted to each scene slot (~150 wpm overall - the 70-word script cannot fit 30 s at 145 wpm with
+    pauses). Processing: HPF 75 Hz, warm low-shelf, presence boost, de-esser, 3:1 compression,
+    subtle synthetic room reverb.
+  * Word timing for subtitles and an intelligibility check: sherpa-onnx Zipformer English ASR
+    (Apache-2.0) run on every narration line and again on the final mix (see qc_report.json).
+  * Music: original score synthesised in numpy (scripts/make_audio.py): detuned-saw pads through a
+    moving filter (Dm(add9) - Bbmaj7 - Gm9 - F(add9) - Dm), additive "strings", sub pulses,
+    plucked build, FM bells, cinematic toms and a final hit; structure follows the brief.
+  * Sound effects: all synthesised (heartbeats, whooshes, impacts, electrical crackle, neural
+    blips, underwater/liquid ambience, bubbles, riser), timed to picture.
+  * Mix: music ~18 dB below narration (measured RMS while speaking) plus 4 dB sidechain ducking,
+    SFX ~16.5 dB below narration, integrated loudness -14 LUFS, true peak <= -1.2 dBTP, 48 kHz stereo.
+
+SCIENTIFIC CONTENT (claims kept conservative)
+  * Sleep stages/memory: NREM/REM cycling and sleep-dependent memory consolidation are well supported.
+  * Glymphatic clearance: CSF flows along perivascular spaces bounded by astrocyte end-feet and
+    exchanges with interstitial fluid; clearance of metabolites such as amyloid-beta is enhanced
+    during sleep (Xie et al., Science 2013). The visualisation shows CSF particles in the
+    perivascular space and waste aggregates drifting into that stream - a schematic, not a literal
+    "cleaning machine". (The magnitude of sleep-dependent clearance in humans is still researched.)
+  * Repair: heart rate and breathing slow in NREM sleep; growth-hormone release peaks in slow-wave
+    sleep and supports tissue maintenance - shown as hormone molecules leaving capillaries and binding
+    at muscle-fibre surfaces (schematic).
+  * Scales are approximately consistent (RBC ~7.8 um diameter, arteriole ~50 um, muscle fibre ~50 um).
+
+REPRODUCING
+  pip install bpy==5.3.0 kokoro-onnx sherpa-onnx nibabel nilearn scikit-image scipy pillow pyloudnorm pyvista
+  Download (not committed, large): TotalSegmentator s1380 zip from
+    https://raw.githubusercontent.com/pyvista/data/master/Data/whole_body_ct/s1380.zip -> assets/human_anatomy/raw/
+  Kokoro model files (kokoro-v1.0.int8.onnx, voices-v1.0.bin) from github.com/thewh1teagle/kokoro-onnx releases -> tools/models/
+  sherpa-onnx-zipformer-en-2023-06-26 from github.com/k2-fsa/sherpa-onnx releases (asr-models) -> tools/asr/
+  then:
+    python3 scripts/generate_assets.py
+    python3 scripts/make_voiceover.py && python3 scripts/make_audio.py
+    python3 scripts/render_scenes.py          (resumable)
+    python3 scripts/assemble_video.py
+    python3 scripts/validate_video.py
