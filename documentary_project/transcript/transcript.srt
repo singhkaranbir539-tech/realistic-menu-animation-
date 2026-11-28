@@ -203,11 +203,11 @@ The twelfth week is presented as a deload week,
 with lower weights and slower tempos.
 
 52
-00:02:40,980 --> 00:02:43,829
+00:02:40,980 --> 00:02:43,919
 The bigger lesson is that training stress must be balanced with
 
 53
-00:02:43,829 --> 00:02:44,635
+00:02:43,919 --> 00:02:44,635
 recovery,
 
 54

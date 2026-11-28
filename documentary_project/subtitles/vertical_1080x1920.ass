@@ -1,0 +1,74 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Inter Medium,58,&H00FFFFFF,&H66FFFFFF,&H64000000,&H8C000000,0,0,0,0,100,100,0.5,0,1,2.6,4.2,2,86,86,330,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.45,0:00:04.14,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf55}Building {\kf35}{\1c&H9AC4FF&}muscle{\1c&HFFFFFF&} {\kf9}is {\kf29}not\N{\kf57}simply {\kf35}about {\kf51}lifting
+Dialogue: 0,0:00:04.16,0:00:05.57,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf41}heavier {\kf58}weights.
+Dialogue: 0,0:00:05.59,0:00:08.41,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf20}It {\kf9}is {\kf35}about {\kf83}understanding\N{\kf9}how {\kf33}your {\kf32}body {\kf64}responds
+Dialogue: 0,0:00:08.43,0:00:11.77,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf11}to {\kf70}training,\N{\k17}{\kf105}{\1c&H9AC4FF&}nutrition,{\1c&HFFFFFF&} {\k17}{\kf99}{\1c&H9AC4FF&}recovery,{\1c&HFFFFFF&}
+Dialogue: 0,0:00:11.79,0:00:14.58,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf26}and {\kf9}the {\kf44}{\1c&H9AC4FF&}signals{\1c&HFFFFFF&} {\kf15}that\N{\kf51}drive {\kf91}{\1c&H9AC4FF&}adaptation.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:17.96,0:00:20.63,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf80}Glucose-based {\kf111}{\1c&H9AC4FF&}carbohydrate{\1c&HFFFFFF&}\N{\kf31}powders {\kf46}include
+Dialogue: 0,0:00:20.65,0:00:23.77,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf80}{\1c&H9AC4FF&}dextrose,{\1c&HFFFFFF&} {\k17}{\kf43}highly\N{\kf40}branched {\kf35}cyclic {\kf83}{\1c&H9AC4FF&}dextrin,{\1c&HFFFFFF&}
+Dialogue: 0,0:00:23.79,0:00:25.42,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf19}and {\kf100}{\1c&H9AC4FF&}Karbolyn.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:25.44,0:00:28.33,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf30}These {\kf52}products {\kf49}provide\N{\kf125}{\1c&H9AC4FF&}carbohydrates{\1c&HFFFFFF&} {\kf27}that {\kf9}can
+Dialogue: 0,0:00:28.35,0:00:31.20,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf64}support {\kf27}{\1c&H9AC4FF&}energy{\1c&HFFFFFF&} {\kf101}availability\N{\kf41}around {\kf54}demanding
+Dialogue: 0,0:00:31.22,0:00:32.73,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf50}training {\kf59}sessions.
+Dialogue: 0,0:00:34.60,0:00:37.88,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf50}{\1c&H9AC4FF&}Glucose{\1c&HFFFFFF&} {\kf30}plays {\kf22}an {\kf43}important\N{\kf44}role {\kf9}in {\kf93}{\1c&H9AC4FF&}metabolism.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:37.90,0:00:39.49,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf9}It {\kf69}supplies {\kf68}{\1c&H9AC4FF&}energy,{\1c&HFFFFFF&}
+Dialogue: 0,0:00:39.51,0:00:41.64,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf48}supports {\kf58}{\1c&H9AC4FF&}glycogen{\1c&HFFFFFF&}\N{\kf95}replenishment,
+Dialogue: 0,0:00:41.66,0:00:44.21,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf12}and {\kf35}can {\kf59}influence {\kf13}the\N{\kf59}hormonal {\kf80}environment
+Dialogue: 0,0:00:44.23,0:00:46.17,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf64}surrounding {\kf93}exercise.
+Dialogue: 0,0:00:46.19,0:00:48.79,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf9}Its {\kf54}effects {\kf43}depend {\kf10}on\N{\kf21}the {\kf21}wider {\kf94}nutritional {\kf9}and
+Dialogue: 0,0:00:48.81,0:00:50.56,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf54}training {\kf77}context.
+Dialogue: 0,0:00:51.58,0:00:53.98,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf52}{\1c&H9AC4FF&}Glucose{\1c&HFFFFFF&} {\kf18}can {\kf90}contribute\N{\kf9}to {\kf19}an {\kf55}{\1c&H9AC4FF&}anabolic{\1c&HFFFFFF&}
+Dialogue: 0,0:00:54.01,0:00:57.01,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf79}environment {\kf31}by {\kf50}supporting\N{\kf66}{\1c&H9AC4FF&}insulin{\1c&HFFFFFF&} {\kf53}signaling {\kf25}and
+Dialogue: 0,0:00:57.03,0:00:58.77,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf53}{\1c&H9AC4FF&}recovery{\1c&HFFFFFF&} {\kf85}{\1c&H9AC4FF&}nutrition.{\1c&HFFFFFF&}
+Dialogue: 0,0:00:58.79,0:01:01.53,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf9}It {\kf27}can {\kf46}also {\kf19}help {\kf30}spare\N{\kf47}{\1c&H9AC4FF&}amino{\1c&HFFFFFF&} {\kf45}{\1c&H9AC4FF&}acids{\1c&HFFFFFF&} {\kf15}from {\kf36}being
+Dialogue: 0,0:01:01.55,0:01:03.50,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf42}used {\kf9}as {\kf9}an\N{\kf32}{\1c&H9AC4FF&}energy{\1c&HFFFFFF&} {\kf66}source.
+Dialogue: 0,0:01:03.52,0:01:06.67,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf17}But {\kf120}{\1c&H9AC4FF&}carbohydrates{\1c&HFFFFFF&} {\kf22}alone\N{\kf24}do {\kf35}not {\kf48}guarantee {\kf52}{\1c&H9AC4FF&}muscle{\1c&HFFFFFF&}
+Dialogue: 0,0:01:06.69,0:01:07.61,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf50}{\1c&H9AC4FF&}growth.{\1c&HFFFFFF&}
+Dialogue: 0,0:01:09.03,0:01:12.78,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf35}Another {\kf68}training {\kf56}concept\N{\kf9}is {\kf76}{\1c&H9AC4FF&}eccentric{\1c&HFFFFFF&} {\kf88}{\1c&H9AC4FF&}overload.{\1c&HFFFFFF&}
+Dialogue: 0,0:01:12.80,0:01:14.95,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf26}This {\kf57}focuses {\kf15}on {\kf9}the\N{\kf54}{\1c&H9AC4FF&}lowering{\1c&HFFFFFF&} {\kf20}phase {\kf25}of {\kf10}a
+Dialogue: 0,0:01:14.97,0:01:15.89,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf77}movement,
+Dialogue: 0,0:01:15.91,0:01:18.75,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf31}where {\kf28}muscles {\kf50}produce\N{\kf40}force {\kf26}while {\kf66}{\1c&H9AC4FF&}lengthening.{\1c&HFFFFFF&}
+Dialogue: 0,0:01:18.77,0:01:21.34,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf68}Controlled {\kf47}{\1c&H9AC4FF&}eccentric{\1c&HFFFFFF&}\N{\kf52}training {\kf23}can {\kf57}create {\kf12}a
+Dialogue: 0,0:01:21.36,0:01:23.57,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf46}powerful {\kf55}training\N{\kf77}{\1c&H9AC4FF&}stimulus.{\1c&HFFFFFF&}
+Dialogue: 0,0:01:25.56,0:01:28.11,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf19}The {\kf26}approach {\kf34}shown {\kf21}in\N{\kf27}this {\kf33}training {\kf55}concept {\kf41}uses
+Dialogue: 0,0:01:28.13,0:01:30.19,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf16}four {\kf39}weeks {\kf17}on {\kf9}and\N{\kf29}{\1c&H9AC4FF&}eight{\1c&HFFFFFF&} {\kf19}weeks {\kf46}off.
+Dialogue: 0,0:01:30.21,0:01:32.64,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf9}The {\kf29}idea {\kf26}is {\kf13}to {\kf71}organize\N{\kf40}demanding {\kf57}training
+Dialogue: 0,0:01:32.66,0:01:34.97,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf29}blocks {\kf13}with {\kf66}extended\N{\kf45}periods {\kf29}away {\kf41}from {\kf11}that
+Dialogue: 0,0:01:34.99,0:01:37.01,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf63}specific\N{\kf45}{\1c&H9AC4FF&}overload{\1c&HFFFFFF&} {\kf64}method.
+Dialogue: 0,0:01:37.03,0:01:38.82,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf19}This {\kf18}is {\kf9}a\N{\kf53}particular {\kf69}{\1c&H9AC4FF&}protocol,{\1c&HFFFFFF&}
+Dialogue: 0,0:01:38.84,0:01:41.65,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf32}not {\kf9}a {\kf69}universally\N{\kf57}established {\kf71}requirement.
+Dialogue: 0,0:01:43.02,0:01:45.59,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf28}One {\kf46}technique {\kf67}highlighted\N{\kf28}in {\kf11}this {\kf53}approach {\kf27}is
+Dialogue: 0,0:01:45.61,0:01:47.92,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf34}{\1c&H9AC4FF&}lowering{\1c&HFFFFFF&} {\kf30}the {\kf28}weight\N{\kf26}over {\kf88}approximately {\kf27}{\1c&H9AC4FF&}eight{\1c&HFFFFFF&}
+Dialogue: 0,0:01:47.94,0:01:50.89,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf53}{\1c&H9AC4FF&}seconds{\1c&HFFFFFF&} {\kf38}during {\kf28}the\N{\kf42}final {\kf91}repetition.
+Dialogue: 0,0:01:50.91,0:01:53.38,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf13}The {\kf65}emphasis {\kf9}is {\kf23}on\N{\kf72}controlling {\kf9}the {\kf58}movement
+Dialogue: 0,0:01:53.40,0:01:56.09,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf33}rather {\kf26}than {\kf57}simply {\kf44}moving\N{\kf17}the {\kf40}weight {\kf9}as {\kf45}quickly
+Dialogue: 0,0:01:56.11,0:01:57.57,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf9}as {\kf95}possible.
+Dialogue: 0,0:01:59.75,0:02:02.73,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf12}The {\kf31}reel {\kf45}also {\kf63}presents\N{\kf25}an {\kf68}{\1c&H9AC4FF&}MA30{\1c&HFFFFFF&} {\kf56}Aggression
+Dialogue: 0,0:02:02.75,0:02:04.99,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf81}Intelligence {\kf100}{\1c&H9AC4FF&}Protocol.{\1c&HFFFFFF&}
+Dialogue: 0,0:02:05.01,0:02:07.93,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf20}It {\kf72}organizes {\kf49}training\N{\kf17}into {\kf53}different {\kf65}phases,
+Dialogue: 0,0:02:07.95,0:02:11.39,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf68}combining {\kf36}{\1c&H9AC4FF&}strength{\1c&HFFFFFF&} {\kf49}work,\N{\k17}{\kf80}{\1c&H9AC4FF&}hypertrophy{\1c&HFFFFFF&} {\kf78}training,
+Dialogue: 0,0:02:11.41,0:02:15.20,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf43}slow {\kf86}{\1c&H9AC4FF&}negatives,{\1c&HFFFFFF&} {\k17}{\kf27}and\N{\kf93}recovery-focused {\kf70}methods.
+Dialogue: 0,0:02:17.32,0:02:19.92,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf9}The {\kf59}displayed {\kf60}schedule\N{\kf53}describes {\kf27}four {\kf45}weeks {\kf9}of
+Dialogue: 0,0:02:19.94,0:02:21.93,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf36}{\1c&H9AC4FF&}strength{\1c&HFFFFFF&} {\kf18}and\N{\kf83}{\1c&H9AC4FF&}hypertrophy{\1c&HFFFFFF&} {\kf48}work,
+Dialogue: 0,0:02:21.95,0:02:24.65,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf30}four {\kf35}weeks {\kf78}emphasizing\N{\kf18}slow {\kf93}{\1c&H9AC4FF&}negatives,{\1c&HFFFFFF&}
+Dialogue: 0,0:02:24.67,0:02:27.52,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf29}three {\kf30}weeks {\kf53}using\N{\kf51}{\1c&H9AC4FF&}rest-pause{\1c&HFFFFFF&} {\kf19}and {\kf27}{\1c&H9AC4FF&}cluster{\1c&HFFFFFF&} {\kf61}sets,
+Dialogue: 0,0:02:27.54,0:02:29.92,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf15}and {\kf34}one {\kf57}scheduled\N{\kf35}{\1c&H9AC4FF&}deload{\1c&HFFFFFF&} {\kf55}week.
+Dialogue: 0,0:02:29.94,0:02:32.89,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf32}Each {\kf33}phase {\kf12}has {\kf18}a {\kf47}different\N{\kf42}training {\kf68}emphasis.
+Dialogue: 0,0:02:35.60,0:02:38.47,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf9}The {\kf36}{\1c&H9AC4FF&}twelfth{\1c&HFFFFFF&} {\kf46}week {\kf9}is\N{\kf54}presented {\kf9}as {\kf24}a {\kf42}{\1c&H9AC4FF&}deload{\1c&HFFFFFF&} {\kf48}week,
+Dialogue: 0,0:02:38.49,0:02:40.88,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf10}with {\kf36}lower {\kf28}weights\N{\kf34}and {\kf32}slower {\kf69}tempos.
+Dialogue: 0,0:02:40.90,0:02:42.94,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf12}The {\kf25}bigger {\kf44}lesson {\kf9}is\N{\kf25}that {\kf44}training {\kf33}stress {\kf15}must
+Dialogue: 0,0:02:42.96,0:02:44.66,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf22}be {\kf57}balanced\N{\kf9}with {\kf72}{\1c&H9AC4FF&}recovery,{\1c&HFFFFFF&}
+Dialogue: 0,0:02:44.68,0:02:48.67,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf89}{\1c&H9AC4FF&}nutrition,{\1c&HFFFFFF&} {\k12}{\kf16}and {\kf102}{\1c&H9AC4FF&}consistency.{\1c&HFFFFFF&}\N{\k33}{\kf42}Train {\kf94}intelligently,
+Dialogue: 0,0:02:48.69,0:02:51.93,Sub,,0,0,0,,{\fad(120,120)}{\k8}{\kf38}recover {\kf84}properly, {\k12}{\kf22}and\N{\kf56}understand {\kf9}the {\kf60}process.

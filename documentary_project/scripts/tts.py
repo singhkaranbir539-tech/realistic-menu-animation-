@@ -57,6 +57,12 @@ def align(clause, audio, t0):
         seg = env[lo:hi:48]
         snapped.append(lo + int(np.argmin(seg)) * 48 if len(seg) else int(c))
     bounds = [0] + sorted(snapped) + [n]
+    mind = int(0.09 * SR)  # minimum word length; resolve squeezed boundaries
+    for _ in range(3):
+        for i in range(1, len(bounds) - 1):
+            if bounds[i] - bounds[i - 1] < mind: bounds[i] = min(bounds[i - 1] + mind, (bounds[i - 1] + bounds[i + 1]) // 2)
+        for i in range(len(bounds) - 2, 0, -1):
+            if bounds[i + 1] - bounds[i] < mind: bounds[i] = max(bounds[i + 1] - mind, (bounds[i - 1] + bounds[i + 1]) // 2)
     out = []
     for i, wd in enumerate(words):
         out.append({"word": wd, "start": round(t0 + bounds[i] / SR, 3),

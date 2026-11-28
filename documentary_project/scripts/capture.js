@@ -19,7 +19,7 @@ function serve() {
 }
 async function open(vertical) {
   const srv = await serve();
-  const [w, h] = vertical ? [1080, 1920] : [1920, 1080];
+  const [w, h] = opt('size', vertical ? '1080x1920' : '1920x1080').split('x').map(Number);
   const browser = await chromium.launch({ args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist', '--disable-gpu-vsync'] });
   const page = await browser.newPage({ viewport: { width: w, height: h }, deviceScaleFactor: 1 });
   page.on('console', m => { if (m.type() === 'error' || m.type() === 'warning') console.error('[page]', m.text().slice(0, 300)); });
