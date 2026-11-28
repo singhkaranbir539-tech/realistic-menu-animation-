@@ -221,3 +221,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# video build outputs (large)
+video/build/
+video/output/scenes/
+video/output/*_4K.mp4
