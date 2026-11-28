@@ -1,0 +1,3337 @@
+{
+ "title": "The Science of Muscle Growth",
+ "duration": 172.37,
+ "fps": 30,
+ "shot_count": 49,
+ "scenes": [
+  {
+   "id": "S01",
+   "start": 0.0,
+   "end": 1.7,
+   "duration": 1.7,
+   "narration": "",
+   "scene_description": "Hook: a muscular anonymous torso emerges from darkness under a rising warm key and rim light.",
+   "world": "body",
+   "main_subject": "Anonymous athletic human figure (SDF anatomy) with x-ray musculature",
+   "anatomical_requirements": "Pectoralis major, deltoid, biceps/triceps brachii, rectus abdominis, latissimus, trapezius; featureless head for anonymity",
+   "environment": "Dark studio void with contact floor and drifting dust",
+   "lighting": "Warm high key spot, warm + cyan rim spots, volumetric key shaft",
+   "materials": "Skin: SSS-approximated dielectric with pore-scale bump; muscle: fibrous tissue shader; x-ray fresnel shell + wireframe topology",
+   "camera_position": {
+    "start": [
+     1.0,
+     0.25,
+     2.3
+    ],
+    "end": [
+     0.55,
+     0.38,
+     1.45
+    ],
+    "target_start": [
+     0,
+     0.4,
+     0
+    ],
+    "target_end": [
+     -0.05,
+     0.42,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 70mm -> 70mm, ease out, aperture 0.5",
+   "animation": {
+    "emerge": {
+     "from": 0,
+     "to": 1,
+     "at": [
+      0,
+      0.8
+     ],
+     "ease": "inOut"
+    },
+    "xray": 0,
+    "curl": 0.25,
+    "dumbbell": 1
+   },
+   "motion_graphics": {
+    "labels": [],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sound_design": [
+    "sub-bass swell",
+    "low impact at 0.15s"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S02",
+   "start": 1.7,
+   "end": 2.95,
+   "duration": 1.25,
+   "narration": "Building muscle is not",
+   "scene_description": "Rapid dolly toward the biceps while skin dissolves into an x-ray view of the muscle.",
+   "world": "body",
+   "main_subject": "Anonymous athletic human figure (SDF anatomy) with x-ray musculature",
+   "anatomical_requirements": "Pectoralis major, deltoid, biceps/triceps brachii, rectus abdominis, latissimus, trapezius; featureless head for anonymity",
+   "environment": "Dark studio void with contact floor and drifting dust",
+   "lighting": "Warm high key spot, warm + cyan rim spots, volumetric key shaft",
+   "materials": "Skin: SSS-approximated dielectric with pore-scale bump; muscle: fibrous tissue shader; x-ray fresnel shell + wireframe topology",
+   "camera_position": {
+    "start": [
+     0.05,
+     0.5,
+     0.95
+    ],
+    "end": [
+     -0.18,
+     0.4,
+     0.42
+    ],
+    "target_start": [
+     -0.24,
+     0.38,
+     0.05
+    ],
+    "target_end": [
+     -0.24,
+     0.37,
+     0.05
+    ]
+   },
+   "camera_movement": "dolly/track, 85mm -> 100mm, ease in, aperture 0.7",
+   "animation": {
+    "xray": {
+     "from": 0,
+     "to": 1,
+     "at": [
+      0.0,
+      0.7
+     ],
+     "ease": "inOut"
+    },
+    "curl": 0.55,
+    "dumbbell": 1,
+    "wire": 0.22,
+    "glowArm": {
+     "from": 0,
+     "to": 0.6,
+     "at": [
+      0,
+      1
+     ],
+     "ease": "inOut"
+    }
+   },
+   "motion_graphics": {
+    "labels": [],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sound_design": [
+    "whoosh rising"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S03",
+   "start": 2.95,
+   "end": 4.15,
+   "duration": 1.2,
+   "narration": "simply about lifting",
+   "scene_description": "Macro-to-micro push into a sectioned muscle bundle; fibres glow as the camera settles.",
+   "world": "fibers",
+   "main_subject": "Skeletal muscle bundle: epimysium, fascicles, sectioned fibres",
+   "anatomical_requirements": "Epimysium > perimysium-wrapped fascicles > muscle fibres (Voronoi section) with myofibril network and mitochondria",
+   "environment": "Deep charcoal microscopic space with bokeh particulate",
+   "lighting": "Warm key spot with shadows, cyan rim, warm bounce from sectioned faces",
+   "materials": "Fibre-striated tissue (clearcoat moisture, SSS rim), emissive cut-face shader, translucent sheath",
+   "camera_position": {
+    "start": [
+     5.5,
+     0.9,
+     2.6
+    ],
+    "end": [
+     2.6,
+     0.45,
+     1.25
+    ],
+    "target_start": [
+     0.6,
+     0,
+     0
+    ],
+    "target_end": [
+     0.6,
+     0,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 100mm -> 100mm, ease out, aperture 0.9",
+   "animation": {
+    "glow": {
+     "from": 0.4,
+     "to": 1.0,
+     "at": [
+      0,
+      1
+     ],
+     "ease": "inOut"
+    },
+    "sheath": 1
+   },
+   "motion_graphics": {
+    "labels": [],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "push",
+    "dur": 0.5
+   },
+   "sound_design": [
+    "push whoosh",
+    "micro texture"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S04",
+   "start": 4.15,
+   "end": 5.55,
+   "duration": 1.4,
+   "narration": "heavier weights.",
+   "scene_description": "Molecular mechanism reveal: myosin heads cycle on actin as the sarcomere shortens under load.",
+   "world": "sarcomere",
+   "main_subject": "Myofibril sarcomeres: actin, myosin cross-bridges, Z-discs, titin",
+   "anatomical_requirements": "Hexagonal thick-filament lattice, trigonal thin filaments, bare zone, Z-disc lattice, titin springs",
+   "environment": "Inside the muscle fibre, neighbouring myofibrils in fog",
+   "lighting": "Warm key, cyan rim, myosin-head glow under load",
+   "materials": "Clearcoated protein surfaces; emissive heads when force is produced",
+   "camera_position": {
+    "start": [
+     3.4,
+     1.1,
+     2.6
+    ],
+    "end": [
+     1.8,
+     0.5,
+     1.7
+    ],
+    "target_start": [
+     0,
+     0,
+     0
+    ],
+    "target_end": [
+     -0.3,
+     0,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 100mm -> 100mm, ease out, aperture 0.8",
+   "animation": {
+    "len": {
+     "from": 1.0,
+     "to": 0.86,
+     "at": [
+      0,
+      1
+     ],
+     "ease": "inOut"
+    },
+    "active": 1,
+    "load": {
+     "from": 0.2,
+     "to": 0.9,
+     "at": [
+      0,
+      1
+     ],
+     "ease": "inOut"
+    }
+   },
+   "motion_graphics": {
+    "labels": [
+     "Actin",
+     "Myosin"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "push",
+    "dur": 0.45
+   },
+   "sound_design": [
+    "pulse impact",
+    "mechanical ticks"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S05",
+   "start": 5.55,
+   "end": 9.45,
+   "duration": 3.9,
+   "narration": "It is about understanding how your body responds to training,",
+   "scene_description": "X-ray athlete performs curls; the working biceps glows with each contraction.",
+   "world": "body",
+   "main_subject": "Anonymous athletic human figure (SDF anatomy) with x-ray musculature",
+   "anatomical_requirements": "Pectoralis major, deltoid, biceps/triceps brachii, rectus abdominis, latissimus, trapezius; featureless head for anonymity",
+   "environment": "Dark studio void with contact floor and drifting dust",
+   "lighting": "Warm high key spot, warm + cyan rim spots, volumetric key shaft",
+   "materials": "Skin: SSS-approximated dielectric with pore-scale bump; muscle: fibrous tissue shader; x-ray fresnel shell + wireframe topology",
+   "camera_position": {
+    "start": [
+     -0.75,
+     0.55,
+     1.6
+    ],
+    "end": [
+     -0.95,
+     0.5,
+     1.15
+    ],
+    "target_start": [
+     -0.1,
+     0.32,
+     0
+    ],
+    "target_end": [
+     -0.15,
+     0.32,
+     0
+    ]
+   },
+   "camera_movement": "orbit [0, -6] deg, 50mm -> 55mm, ease inOut, aperture 0.45",
+   "animation": {
+    "xray": 1,
+    "curl": [
+     [
+      0,
+      0.1
+     ],
+     [
+      0.25,
+      0.95
+     ],
+     [
+      0.5,
+      0.1
+     ],
+     [
+      0.75,
+      0.95
+     ],
+     [
+      1,
+      0.3
+     ]
+    ],
+    "dumbbell": 1,
+    "wire": 0.18,
+    "glowArm": [
+     [
+      0,
+      0.2
+     ],
+     [
+      0.25,
+      0.9
+     ],
+     [
+      0.5,
+      0.25
+     ],
+     [
+      0.75,
+      0.9
+     ],
+     [
+      1,
+      0.3
+     ]
+    ]
+   },
+   "motion_graphics": {
+    "labels": [
+     "Biceps brachii"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "dissolve",
+    "dur": 0.5
+   },
+   "sound_design": [
+    "soft cloth/metal movement",
+    "low pulse per rep"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S06",
+   "start": 9.45,
+   "end": 10.62,
+   "duration": 1.17,
+   "narration": "nutrition,",
+   "scene_description": "Cut into the bloodstream: red cells and glucose flow past.",
+   "world": "blood",
+   "main_subject": "Bloodstream fly-through with erythrocytes and glucose",
+   "anatomical_requirements": "Biconcave erythrocytes (Evans-Fung profile), endothelium-lined vessel",
+   "environment": "Vessel lumen with depth-dependent red scattering",
+   "lighting": "Camera headlamp, warm key, faint cyan rim",
+   "materials": "Translucent RBC tissue with SSS rim, wet endothelium, glass-like glucose glyphs",
+   "camera_position": {
+    "start": [
+     0.4,
+     0.3,
+     8.0
+    ],
+    "end": [
+     0.2,
+     0.1,
+     5.5
+    ],
+    "target_start": [
+     0,
+     0,
+     -4
+    ],
+    "target_end": [
+     0,
+     0,
+     -6
+    ]
+   },
+   "camera_movement": "dolly/track, 35mm -> 35mm, ease linear, aperture 0.5",
+   "animation": {
+    "flow": 1.0,
+    "glucose": 1.0,
+    "gglow": 0.8
+   },
+   "motion_graphics": {
+    "labels": [
+     "Nutrition"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sound_design": [
+    "fluid whoosh"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S07",
+   "start": 10.62,
+   "end": 11.8,
+   "duration": 1.18,
+   "narration": "recovery,",
+   "scene_description": "Recovery: a ribosome extends a new protein chain.",
+   "world": "synthesis",
+   "main_subject": "Protein synthesis and mitochondrial energy production (conceptual)",
+   "anatomical_requirements": "Ribosome subunits, mRNA, nascent polypeptide, amino acids, mitochondrion with cristae",
+   "environment": "Sarcoplasm interior",
+   "lighting": "Key spot, cyan rim, warm fill",
+   "materials": "Protein clusters, translucent outer membrane, emissive cristae and ATP",
+   "camera_position": {
+    "start": [
+     -1.0,
+     1.4,
+     5.2
+    ],
+    "end": [
+     -1.3,
+     1.5,
+     4.6
+    ],
+    "target_start": [
+     -1.6,
+     1.2,
+     0
+    ],
+    "target_end": [
+     -1.6,
+     1.3,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 85mm -> 85mm, ease inOut, aperture 0.7",
+   "animation": {
+    "chain": {
+     "from": 0.35,
+     "to": 0.6,
+     "at": [
+      0,
+      1
+     ],
+     "ease": "inOut"
+    },
+    "aa": 1,
+    "fuel": 0
+   },
+   "motion_graphics": {
+    "labels": [
+     "Recovery"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sound_design": [
+    "soft chime",
+    "organic bubbles"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S08",
+   "start": 11.8,
+   "end": 14.35,
+   "duration": 2.55,
+   "narration": "and the signals that drive adaptation.",
+   "scene_description": "Signals that drive adaptation: an activated receptor relays signals into the muscle cell.",
+   "world": "cell",
+   "main_subject": "Muscle-cell membrane cutaway: insulin receptor, GLUT4 translocation",
+   "anatomical_requirements": "Lipid bilayer, insulin receptor dimer, kinase domains, GLUT4 storage vesicles",
+   "environment": "Extracellular space above, sarcoplasm below",
+   "lighting": "Warm key, cyan rim, warm under-glow",
+   "materials": "Granular protein clusters, lipid head groups, emissive signal relay",
+   "camera_position": {
+    "start": [
+     2.4,
+     0.7,
+     10.0
+    ],
+    "end": [
+     1.4,
+     0.5,
+     8.6
+    ],
+    "target_start": [
+     0,
+     -0.1,
+     0
+    ],
+    "target_end": [
+     0,
+     -0.2,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 35mm -> 35mm, ease inOut, aperture 0.5",
+   "animation": {
+    "dock": 1,
+    "signal": {
+     "from": 0,
+     "to": 1,
+     "at": [
+      0,
+      0.5
+     ],
+     "ease": "inOut"
+    },
+    "glut": {
+     "from": 0,
+     "to": 0.4,
+     "at": [
+      0.3,
+      1
+     ],
+     "ease": "inOut"
+    },
+    "glucose": 1
+   },
+   "motion_graphics": {
+    "labels": [
+     "Cell signalling"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "dissolve",
+    "dur": 0.4
+   },
+   "sound_design": [
+    "signal pulses"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S09",
+   "start": 14.35,
+   "end": 17.0,
+   "duration": 2.65,
+   "narration": "",
+   "scene_description": "Title card over a muscle bundle that gradually thickens (hypertrophy).",
+   "world": "fibers",
+   "main_subject": "Skeletal muscle bundle: epimysium, fascicles, sectioned fibres",
+   "anatomical_requirements": "Epimysium > perimysium-wrapped fascicles > muscle fibres (Voronoi section) with myofibril network and mitochondria",
+   "environment": "Deep charcoal microscopic space with bokeh particulate",
+   "lighting": "Warm key spot with shadows, cyan rim, warm bounce from sectioned faces",
+   "materials": "Fibre-striated tissue (clearcoat moisture, SSS rim), emissive cut-face shader, translucent sheath",
+   "camera_position": {
+    "start": [
+     6.5,
+     2.0,
+     5.0
+    ],
+    "end": [
+     5.2,
+     1.4,
+     4.0
+    ],
+    "target_start": [
+     -0.5,
+     0,
+     0
+    ],
+    "target_end": [
+     -0.5,
+     0,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 35mm -> 35mm, ease inOut, aperture 0.4",
+   "animation": {
+    "grow": {
+     "from": 0,
+     "to": 0.6,
+     "at": [
+      0,
+      1
+     ],
+     "ease": "inOut"
+    },
+    "glow": 1
+   },
+   "motion_graphics": {
+    "labels": [],
+    "title": "The Science of Muscle Growth",
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "dissolve",
+    "dur": 0.6
+   },
+   "sound_design": [
+    "title hit",
+    "music swell"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S10",
+   "start": 17.0,
+   "end": 21.6,
+   "duration": 4.6,
+   "narration": "Glucose-based carbohydrate powders include dextrose,",
+   "scene_description": "Macro dolly across three heaps of carbohydrate powder; a stream of dextrose pours onto the first heap.",
+   "world": "powder",
+   "main_subject": "Carbohydrate powders in macro product photography",
+   "anatomical_requirements": "n/a",
+   "environment": "Dark slate studio surface",
+   "lighting": "Soft key with shadows, cyan back rim, warm side kicker",
+   "materials": "Instanced powder grains (crystalline / fine), varied-roughness slate",
+   "camera_position": {
+    "start": [
+     -5.5,
+     1.5,
+     4.5
+    ],
+    "end": [
+     -2.6,
+     1.3,
+     4.6
+    ],
+    "target_start": [
+     -1.0,
+     0.5,
+     0
+    ],
+    "target_end": [
+     -0.6,
+     0.5,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 50mm -> 50mm, ease inOut, aperture 0.7",
+   "animation": {
+    "pour": 1
+   },
+   "motion_graphics": {
+    "labels": [
+     "Dextrose"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "dissolve",
+    "dur": 0.7
+   },
+   "sound_design": [
+    "powder pour texture",
+    "low drone"
+   ],
+   "conceptual_visualization": false
+  },
+  {
+   "id": "S11",
+   "start": 21.6,
+   "end": 23.85,
+   "duration": 2.25,
+   "narration": "highly branched cyclic dextrin,",
+   "scene_description": "Molecular view of a highly branched cyclic dextrin: a cyclic backbone of glucose units with branched clusters.",
+   "world": "molecules",
+   "main_subject": "Carbohydrate structures",
+   "anatomical_requirements": "beta-D-glucopyranose (CPK), highly branched cyclic dextrin (simplified), glycogen granule with glycogenin core",
+   "environment": "Dark lab-space with soft halo",
+   "lighting": "Key spot, cyan and warm rims",
+   "materials": "Clearcoat CPK atoms; emissive glucose units",
+   "camera_position": {
+    "start": [
+     0,
+     5.5,
+     12.5
+    ],
+    "end": [
+     0,
+     4.0,
+     10.0
+    ],
+    "target_start": [
+     0,
+     0,
+     0
+    ],
+    "target_end": [
+     0,
+     0,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 50mm -> 50mm, ease inOut, aperture 0.5",
+   "animation": {
+    "show": "dextrin",
+    "spin": 0.4,
+    "glow": 0.6
+   },
+   "motion_graphics": {
+    "labels": [
+     "Highly branched cyclic dextrin"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "push",
+    "dur": 0.5
+   },
+   "sound_design": [
+    "crystalline shimmer"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S12",
+   "start": 23.85,
+   "end": 25.45,
+   "duration": 1.6,
+   "narration": "and Karbolyn.",
+   "scene_description": "Macro close-up of the third heap, identified as a branded product (no composition claims).",
+   "world": "powder",
+   "main_subject": "Carbohydrate powders in macro product photography",
+   "anatomical_requirements": "n/a",
+   "environment": "Dark slate studio surface",
+   "lighting": "Soft key with shadows, cyan back rim, warm side kicker",
+   "materials": "Instanced powder grains (crystalline / fine), varied-roughness slate",
+   "camera_position": {
+    "start": [
+     7.2,
+     1.9,
+     5.4
+    ],
+    "end": [
+     6.6,
+     1.7,
+     4.9
+    ],
+    "target_start": [
+     2.4,
+     0.55,
+     0.3
+    ],
+    "target_end": [
+     2.4,
+     0.5,
+     0.3
+    ]
+   },
+   "camera_movement": "dolly/track, 70mm -> 70mm, ease inOut, aperture 0.9",
+   "animation": {},
+   "motion_graphics": {
+    "labels": [
+     "Karbolyn"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sound_design": [
+    "soft granular rustle"
+   ],
+   "conceptual_visualization": false
+  },
+  {
+   "id": "S13",
+   "start": 25.45,
+   "end": 29.2,
+   "duration": 3.75,
+   "narration": "These products provide carbohydrates that can support",
+   "scene_description": "Grains lift from all heaps and resolve into glucose molecules: the products supply carbohydrate.",
+   "world": "powder",
+   "main_subject": "Carbohydrate powders in macro product photography",
+   "anatomical_requirements": "n/a",
+   "environment": "Dark slate studio surface",
+   "lighting": "Soft key with shadows, cyan back rim, warm side kicker",
+   "materials": "Instanced powder grains (crystalline / fine), varied-roughness slate",
+   "camera_position": {
+    "start": [
+     0,
+     1.4,
+     7.5
+    ],
+    "end": [
+     0,
+     2.2,
+     6.2
+    ],
+    "target_start": [
+     0,
+     0.9,
+     0
+    ],
+    "target_end": [
+     0,
+     1.8,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 35mm -> 35mm, ease inOut, aperture 0.5",
+   "animation": {
+    "lift": {
+     "from": 0,
+     "to": 1,
+     "at": [
+      0.05,
+      0.9
+     ],
+     "ease": "inOut"
+    },
+    "liftHeap": 9,
+    "glyphs": {
+     "from": 0,
+     "to": 1,
+     "at": [
+      0.12,
+      0.6
+     ],
+     "ease": "inOut"
+    }
+   },
+   "motion_graphics": {
+    "labels": [
+     "Carbohydrate"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sound_design": [
+    "rising granular swirl",
+    "airy shimmer"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S14",
+   "start": 29.2,
+   "end": 34.0,
+   "duration": 4.8,
+   "narration": "energy availability around demanding training sessions.",
+   "scene_description": "X-ray athlete trains alternating curls; working muscles glow to show energy demand.",
+   "world": "body",
+   "main_subject": "Anonymous athletic human figure (SDF anatomy) with x-ray musculature",
+   "anatomical_requirements": "Pectoralis major, deltoid, biceps/triceps brachii, rectus abdominis, latissimus, trapezius; featureless head for anonymity",
+   "environment": "Dark studio void with contact floor and drifting dust",
+   "lighting": "Warm high key spot, warm + cyan rim spots, volumetric key shaft",
+   "materials": "Skin: SSS-approximated dielectric with pore-scale bump; muscle: fibrous tissue shader; x-ray fresnel shell + wireframe topology",
+   "camera_position": {
+    "start": [
+     0.9,
+     0.7,
+     1.9
+    ],
+    "end": [
+     0.6,
+     0.55,
+     1.5
+    ],
+    "target_start": [
+     0,
+     0.35,
+     0
+    ],
+    "target_end": [
+     -0.1,
+     0.35,
+     0
+    ]
+   },
+   "camera_movement": "orbit [0, 10] deg, 50mm -> 50mm, ease inOut, aperture 0.4",
+   "animation": {
+    "xray": 1,
+    "curl": [
+     [
+      0,
+      0.1
+     ],
+     [
+      0.3,
+      0.95
+     ],
+     [
+      0.6,
+      0.1
+     ],
+     [
+      0.9,
+      0.95
+     ],
+     [
+      1,
+      0.8
+     ]
+    ],
+    "curlL": [
+     [
+      0,
+      0.95
+     ],
+     [
+      0.3,
+      0.1
+     ],
+     [
+      0.6,
+      0.95
+     ],
+     [
+      0.9,
+      0.1
+     ],
+     [
+      1,
+      0.2
+     ]
+    ],
+    "dumbbell": 1,
+    "wire": 0.16,
+    "glowArm": 1.0
+   },
+   "motion_graphics": {
+    "labels": [
+     "Energy availability"
+    ],
+    "title": null,
+    "context_note": "Carbohydrate powders are a convenient carbohydrate source. They are not uniquely anabolic; any benefit depends on training demands and total daily intake.",
+    "timer": false
+   },
+   "transition_in": {
+    "type": "dissolve",
+    "dur": 0.6
+   },
+   "sound_design": [
+    "rep pulses",
+    "breathing ambience"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S15",
+   "start": 34.0,
+   "end": 37.95,
+   "duration": 3.95,
+   "narration": "Glucose plays an important role in metabolism.",
+   "scene_description": "Ball-and-stick glucose molecule rotating in a dark lab space (CPK colours).",
+   "world": "molecules",
+   "main_subject": "Carbohydrate structures",
+   "anatomical_requirements": "beta-D-glucopyranose (CPK), highly branched cyclic dextrin (simplified), glycogen granule with glycogenin core",
+   "environment": "Dark lab-space with soft halo",
+   "lighting": "Key spot, cyan and warm rims",
+   "materials": "Clearcoat CPK atoms; emissive glucose units",
+   "camera_position": {
+    "start": [
+     0,
+     1.4,
+     11.5
+    ],
+    "end": [
+     0,
+     0.8,
+     9.6
+    ],
+    "target_start": [
+     0,
+     0,
+     0
+    ],
+    "target_end": [
+     0,
+     0,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 50mm -> 50mm, ease inOut, aperture 0.5",
+   "animation": {
+    "show": "glucose",
+    "spin": 0.35
+   },
+   "motion_graphics": {
+    "labels": [
+     "Glucose"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "dissolve",
+    "dur": 0.7
+   },
+   "sound_design": [
+    "glassy tone"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S16",
+   "start": 37.95,
+   "end": 39.55,
+   "duration": 1.6,
+   "narration": "It supplies energy,",
+   "scene_description": "Glucose streams into a mitochondrion that releases ATP sparks: energy supply.",
+   "world": "synthesis",
+   "main_subject": "Protein synthesis and mitochondrial energy production (conceptual)",
+   "anatomical_requirements": "Ribosome subunits, mRNA, nascent polypeptide, amino acids, mitochondrion with cristae",
+   "environment": "Sarcoplasm interior",
+   "lighting": "Key spot, cyan rim, warm fill",
+   "materials": "Protein clusters, translucent outer membrane, emissive cristae and ATP",
+   "camera_position": {
+    "start": [
+     9.5,
+     1.8,
+     6.0
+    ],
+    "end": [
+     8.6,
+     1.2,
+     5.2
+    ],
+    "target_start": [
+     3.4,
+     -0.5,
+     -0.7
+    ],
+    "target_end": [
+     3.4,
+     -0.6,
+     -0.8
+    ]
+   },
+   "camera_movement": "dolly/track, 50mm -> 50mm, ease inOut, aperture 0.6",
+   "animation": {
+    "chain": 0.4,
+    "aa": 0.3,
+    "fuel": 1,
+    "atp": 1
+   },
+   "motion_graphics": {
+    "labels": [
+     "Mitochondrion"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "push",
+    "dur": 0.4
+   },
+   "sound_design": [
+    "energy crackle"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S17",
+   "start": 39.55,
+   "end": 41.75,
+   "duration": 2.2,
+   "narration": "supports glycogen replenishment,",
+   "scene_description": "A glycogen granule rebuilds tier by tier around its glycogenin core (replenishment).",
+   "world": "molecules",
+   "main_subject": "Carbohydrate structures",
+   "anatomical_requirements": "beta-D-glucopyranose (CPK), highly branched cyclic dextrin (simplified), glycogen granule with glycogenin core",
+   "environment": "Dark lab-space with soft halo",
+   "lighting": "Key spot, cyan and warm rims",
+   "materials": "Clearcoat CPK atoms; emissive glucose units",
+   "camera_position": {
+    "start": [
+     0,
+     2.0,
+     11.0
+    ],
+    "end": [
+     0,
+     1.4,
+     9.0
+    ],
+    "target_start": [
+     0,
+     0,
+     0
+    ],
+    "target_end": [
+     0,
+     0,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 50mm -> 50mm, ease inOut, aperture 0.5",
+   "animation": {
+    "show": "glycogen",
+    "build": {
+     "from": 0.25,
+     "to": 1.0,
+     "at": [
+      0,
+      1
+     ],
+     "ease": "inOut"
+    },
+    "glow": 0.8,
+    "spin": 0.3
+   },
+   "motion_graphics": {
+    "labels": [
+     "Glycogen"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sound_design": [
+    "building chimes"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S18",
+   "start": 41.75,
+   "end": 46.25,
+   "duration": 4.5,
+   "narration": "and can influence the hormonal environment surrounding exercise.",
+   "scene_description": "Bloodstream with circulating insulin and glucose: the hormonal environment around exercise.",
+   "world": "blood",
+   "main_subject": "Bloodstream fly-through with erythrocytes and glucose",
+   "anatomical_requirements": "Biconcave erythrocytes (Evans-Fung profile), endothelium-lined vessel",
+   "environment": "Vessel lumen with depth-dependent red scattering",
+   "lighting": "Camera headlamp, warm key, faint cyan rim",
+   "materials": "Translucent RBC tissue with SSS rim, wet endothelium, glass-like glucose glyphs",
+   "camera_position": {
+    "start": [
+     0.6,
+     0.4,
+     6.0
+    ],
+    "end": [
+     0.0,
+     0.1,
+     2.0
+    ],
+    "target_start": [
+     0,
+     0,
+     -6
+    ],
+    "target_end": [
+     0,
+     0,
+     -9
+    ]
+   },
+   "camera_movement": "dolly/track, 50mm -> 50mm, ease linear, aperture 0.6",
+   "animation": {
+    "flow": 0.8,
+    "glucose": 0.8,
+    "insulin": 1,
+    "gglow": 0.6
+   },
+   "motion_graphics": {
+    "labels": [
+     "Insulin"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sound_design": [
+    "fluid flow",
+    "soft heartbeat"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S19",
+   "start": 46.25,
+   "end": 51.0,
+   "duration": 4.75,
+   "narration": "Its effects depend on the wider nutritional and training context.",
+   "scene_description": "The wider context: the muscle bundle surrounded by the factors that determine the outcome.",
+   "world": "fibers",
+   "main_subject": "Skeletal muscle bundle: epimysium, fascicles, sectioned fibres",
+   "anatomical_requirements": "Epimysium > perimysium-wrapped fascicles > muscle fibres (Voronoi section) with myofibril network and mitochondria",
+   "environment": "Deep charcoal microscopic space with bokeh particulate",
+   "lighting": "Warm key spot with shadows, cyan rim, warm bounce from sectioned faces",
+   "materials": "Fibre-striated tissue (clearcoat moisture, SSS rim), emissive cut-face shader, translucent sheath",
+   "camera_position": {
+    "start": [
+     7.0,
+     2.6,
+     6.0
+    ],
+    "end": [
+     6.0,
+     2.0,
+     5.2
+    ],
+    "target_start": [
+     -1.0,
+     0,
+     0
+    ],
+    "target_end": [
+     -1.0,
+     0,
+     0
+    ]
+   },
+   "camera_movement": "orbit [0, 8] deg, 35mm -> 35mm, ease inOut, aperture 0.35",
+   "animation": {
+    "glow": 0.8,
+    "grow": 0.1
+   },
+   "motion_graphics": {
+    "labels": [
+     "Training",
+     "Nutrition",
+     "Recovery"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "dissolve",
+    "dur": 0.6
+   },
+   "sound_design": [
+    "calm pad"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S20",
+   "start": 51.0,
+   "end": 55.1,
+   "duration": 4.1,
+   "narration": "Glucose can contribute to an anabolic environment by",
+   "scene_description": "Establishing shot of the muscle-cell membrane; insulin approaches its receptor.",
+   "world": "cell",
+   "main_subject": "Muscle-cell membrane cutaway: insulin receptor, GLUT4 translocation",
+   "anatomical_requirements": "Lipid bilayer, insulin receptor dimer, kinase domains, GLUT4 storage vesicles",
+   "environment": "Extracellular space above, sarcoplasm below",
+   "lighting": "Warm key, cyan rim, warm under-glow",
+   "materials": "Granular protein clusters, lipid head groups, emissive signal relay",
+   "camera_position": {
+    "start": [
+     -4.5,
+     1.3,
+     11.5
+    ],
+    "end": [
+     -2.6,
+     0.9,
+     9.8
+    ],
+    "target_start": [
+     -0.5,
+     0.4,
+     0
+    ],
+    "target_end": [
+     -0.4,
+     0.3,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 35mm -> 35mm, ease inOut, aperture 0.45",
+   "animation": {
+    "dock": {
+     "from": 0,
+     "to": 0.55,
+     "at": [
+      0,
+      1
+     ],
+     "ease": "inOut"
+    },
+    "signal": 0,
+    "glut": 0,
+    "glucose": 1
+   },
+   "motion_graphics": {
+    "labels": [
+     "Insulin",
+     "Insulin receptor"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "dissolve",
+    "dur": 0.7
+   },
+   "sound_design": [
+    "deep ambience",
+    "drift"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S21",
+   "start": 55.1,
+   "end": 58.85,
+   "duration": 3.75,
+   "narration": "supporting insulin signaling and recovery nutrition.",
+   "scene_description": "Insulin binding activates the receptor; signal relay moves GLUT4 vesicles to the membrane and glucose enters.",
+   "world": "cell",
+   "main_subject": "Muscle-cell membrane cutaway: insulin receptor, GLUT4 translocation",
+   "anatomical_requirements": "Lipid bilayer, insulin receptor dimer, kinase domains, GLUT4 storage vesicles",
+   "environment": "Extracellular space above, sarcoplasm below",
+   "lighting": "Warm key, cyan rim, warm under-glow",
+   "materials": "Granular protein clusters, lipid head groups, emissive signal relay",
+   "camera_position": {
+    "start": [
+     1.2,
+     0.4,
+     9.0
+    ],
+    "end": [
+     2.8,
+     0.1,
+     9.4
+    ],
+    "target_start": [
+     0.4,
+     -0.6,
+     0
+    ],
+    "target_end": [
+     0.8,
+     -0.9,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 35mm -> 35mm, ease inOut, aperture 0.45",
+   "animation": {
+    "dock": 1,
+    "signal": {
+     "from": 0.2,
+     "to": 1,
+     "at": [
+      0,
+      0.35
+     ],
+     "ease": "inOut"
+    },
+    "glut": {
+     "from": 0,
+     "to": 1,
+     "at": [
+      0.2,
+      0.9
+     ],
+     "ease": "inOut"
+    },
+    "uptake": {
+     "from": 0,
+     "to": 1,
+     "at": [
+      0.55,
+      1
+     ],
+     "ease": "inOut"
+    },
+    "glucose": 1
+   },
+   "motion_graphics": {
+    "labels": [
+     "Insulin signalling",
+     "GLUT4"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sound_design": [
+    "activation chime",
+    "pulse train"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S22",
+   "start": 58.85,
+   "end": 63.45,
+   "duration": 4.6,
+   "narration": "It can also help spare amino acids from being used as an energy source.",
+   "scene_description": "Glucose fuels the mitochondrion while amino acids are routed to the ribosome for synthesis.",
+   "world": "synthesis",
+   "main_subject": "Protein synthesis and mitochondrial energy production (conceptual)",
+   "anatomical_requirements": "Ribosome subunits, mRNA, nascent polypeptide, amino acids, mitochondrion with cristae",
+   "environment": "Sarcoplasm interior",
+   "lighting": "Key spot, cyan rim, warm fill",
+   "materials": "Protein clusters, translucent outer membrane, emissive cristae and ATP",
+   "camera_position": {
+    "start": [
+     0.5,
+     1.6,
+     10.5
+    ],
+    "end": [
+     0.3,
+     1.3,
+     9.0
+    ],
+    "target_start": [
+     0.4,
+     0.6,
+     0
+    ],
+    "target_end": [
+     0.4,
+     0.6,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 35mm -> 35mm, ease inOut, aperture 0.4",
+   "animation": {
+    "chain": {
+     "from": 0.3,
+     "to": 0.9,
+     "at": [
+      0,
+      1
+     ],
+     "ease": "inOut"
+    },
+    "aa": 1,
+    "fuel": 1,
+    "atp": 1
+   },
+   "motion_graphics": {
+    "labels": [
+     "Amino acids",
+     "Glucose -> energy"
+    ],
+    "title": null,
+    "context_note": "Protein-sparing: adequate carbohydrate reduces the use of amino acids as fuel. Its contribution to muscle growth is modest compared with training and protein intake.",
+    "timer": false
+   },
+   "transition_in": {
+    "type": "dissolve",
+    "dur": 0.6
+   },
+   "sound_design": [
+    "soft energy hum"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S23",
+   "start": 63.45,
+   "end": 68.0,
+   "duration": 4.55,
+   "narration": "But carbohydrates alone do not guarantee muscle growth.",
+   "scene_description": "The fibre cross-section dims without growing: carbohydrates alone do not guarantee growth.",
+   "world": "fibers",
+   "main_subject": "Skeletal muscle bundle: epimysium, fascicles, sectioned fibres",
+   "anatomical_requirements": "Epimysium > perimysium-wrapped fascicles > muscle fibres (Voronoi section) with myofibril network and mitochondria",
+   "environment": "Deep charcoal microscopic space with bokeh particulate",
+   "lighting": "Warm key spot with shadows, cyan rim, warm bounce from sectioned faces",
+   "materials": "Fibre-striated tissue (clearcoat moisture, SSS rim), emissive cut-face shader, translucent sheath",
+   "camera_position": {
+    "start": [
+     4.2,
+     0.6,
+     2.6
+    ],
+    "end": [
+     5.0,
+     1.0,
+     3.4
+    ],
+    "target_start": [
+     0.5,
+     0,
+     0
+    ],
+    "target_end": [
+     0.4,
+     0,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 85mm -> 85mm, ease inOut, aperture 0.7",
+   "animation": {
+    "grow": 0,
+    "glow": {
+     "from": 1.0,
+     "to": 0.55,
+     "at": [
+      0,
+      1
+     ],
+     "ease": "inOut"
+    },
+    "mito": 0.6
+   },
+   "motion_graphics": {
+    "labels": [],
+    "title": null,
+    "context_note": "Muscle growth needs a training stimulus, sufficient protein and energy, and recovery. Carbohydrate alone does not drive hypertrophy.",
+    "timer": false
+   },
+   "transition_in": {
+    "type": "dissolve",
+    "dur": 0.6
+   },
+   "sound_design": [
+    "music dips",
+    "low tone"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S24",
+   "start": 68.0,
+   "end": 72.8,
+   "duration": 4.8,
+   "narration": "Another training concept is eccentric overload.",
+   "scene_description": "Title over the x-ray athlete slowly lowering a dumbbell.",
+   "world": "body",
+   "main_subject": "Anonymous athletic human figure (SDF anatomy) with x-ray musculature",
+   "anatomical_requirements": "Pectoralis major, deltoid, biceps/triceps brachii, rectus abdominis, latissimus, trapezius; featureless head for anonymity",
+   "environment": "Dark studio void with contact floor and drifting dust",
+   "lighting": "Warm high key spot, warm + cyan rim spots, volumetric key shaft",
+   "materials": "Skin: SSS-approximated dielectric with pore-scale bump; muscle: fibrous tissue shader; x-ray fresnel shell + wireframe topology",
+   "camera_position": {
+    "start": [
+     1.4,
+     0.45,
+     1.6
+    ],
+    "end": [
+     1.1,
+     0.4,
+     1.25
+    ],
+    "target_start": [
+     0,
+     0.3,
+     0
+    ],
+    "target_end": [
+     -0.05,
+     0.3,
+     0
+    ]
+   },
+   "camera_movement": "orbit [0, -8] deg, 50mm -> 50mm, ease inOut, aperture 0.4",
+   "animation": {
+    "xray": 1,
+    "curl": {
+     "from": 1.0,
+     "to": 0.1,
+     "at": [
+      0.15,
+      0.95
+     ],
+     "ease": "sine"
+    },
+    "dumbbell": 1,
+    "wire": 0.18,
+    "glowArm": 0.9
+   },
+   "motion_graphics": {
+    "labels": [],
+    "title": "Eccentric Overload",
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "dissolve",
+    "dur": 0.7
+   },
+   "sound_design": [
+    "title hit",
+    "tension drone"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S25",
+   "start": 72.8,
+   "end": 75.95,
+   "duration": 3.15,
+   "narration": "This focuses on the lowering phase of a movement,",
+   "scene_description": "Side profile of the lowering phase: the elbow extends under control.",
+   "world": "body",
+   "main_subject": "Anonymous athletic human figure (SDF anatomy) with x-ray musculature",
+   "anatomical_requirements": "Pectoralis major, deltoid, biceps/triceps brachii, rectus abdominis, latissimus, trapezius; featureless head for anonymity",
+   "environment": "Dark studio void with contact floor and drifting dust",
+   "lighting": "Warm high key spot, warm + cyan rim spots, volumetric key shaft",
+   "materials": "Skin: SSS-approximated dielectric with pore-scale bump; muscle: fibrous tissue shader; x-ray fresnel shell + wireframe topology",
+   "camera_position": {
+    "start": [
+     -1.6,
+     0.4,
+     0.55
+    ],
+    "end": [
+     -1.45,
+     0.42,
+     0.75
+    ],
+    "target_start": [
+     -0.2,
+     0.28,
+     0.05
+    ],
+    "target_end": [
+     -0.2,
+     0.26,
+     0.05
+    ]
+   },
+   "camera_movement": "dolly/track, 50mm -> 50mm, ease inOut, aperture 0.6",
+   "animation": {
+    "xray": 1,
+    "curl": {
+     "from": 1.0,
+     "to": 0.05,
+     "at": [
+      0.05,
+      0.95
+     ],
+     "ease": "sine"
+    },
+    "dumbbell": 1,
+    "wire": 0.2,
+    "glowArm": 1.0
+   },
+   "motion_graphics": {
+    "labels": [
+     "Eccentric phase"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sound_design": [
+    "slow creak",
+    "breath"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S26",
+   "start": 75.95,
+   "end": 78.65,
+   "duration": 2.7,
+   "narration": "where muscles produce force while lengthening.",
+   "scene_description": "Sarcomeres lengthen while myosin heads stay engaged and glowing: force while lengthening.",
+   "world": "sarcomere",
+   "main_subject": "Myofibril sarcomeres: actin, myosin cross-bridges, Z-discs, titin",
+   "anatomical_requirements": "Hexagonal thick-filament lattice, trigonal thin filaments, bare zone, Z-disc lattice, titin springs",
+   "environment": "Inside the muscle fibre, neighbouring myofibrils in fog",
+   "lighting": "Warm key, cyan rim, myosin-head glow under load",
+   "materials": "Clearcoated protein surfaces; emissive heads when force is produced",
+   "camera_position": {
+    "start": [
+     2.6,
+     1.2,
+     3.4
+    ],
+    "end": [
+     1.8,
+     0.8,
+     2.8
+    ],
+    "target_start": [
+     0,
+     0,
+     0
+    ],
+    "target_end": [
+     0,
+     0,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 50mm -> 50mm, ease inOut, aperture 0.6",
+   "animation": {
+    "len": {
+     "from": 0.92,
+     "to": 1.18,
+     "at": [
+      0,
+      1
+     ],
+     "ease": "inOut"
+    },
+    "active": 0.8,
+    "load": 1.0,
+    "zglow": 0.5
+   },
+   "motion_graphics": {
+    "labels": [
+     "Lengthening under load"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "push",
+    "dur": 0.45
+   },
+   "sound_design": [
+    "stretch tension",
+    "heads clicking"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S27",
+   "start": 78.65,
+   "end": 85.0,
+   "duration": 6.35,
+   "narration": "Controlled eccentric training can create a powerful training stimulus.",
+   "scene_description": "Fibres pulse with tension then begin to adapt: a powerful training stimulus.",
+   "world": "fibers",
+   "main_subject": "Skeletal muscle bundle: epimysium, fascicles, sectioned fibres",
+   "anatomical_requirements": "Epimysium > perimysium-wrapped fascicles > muscle fibres (Voronoi section) with myofibril network and mitochondria",
+   "environment": "Deep charcoal microscopic space with bokeh particulate",
+   "lighting": "Warm key spot with shadows, cyan rim, warm bounce from sectioned faces",
+   "materials": "Fibre-striated tissue (clearcoat moisture, SSS rim), emissive cut-face shader, translucent sheath",
+   "camera_position": {
+    "start": [
+     3.2,
+     1.8,
+     4.6
+    ],
+    "end": [
+     2.4,
+     0.6,
+     3.0
+    ],
+    "target_start": [
+     0.2,
+     0,
+     0
+    ],
+    "target_end": [
+     0.4,
+     0,
+     0
+    ]
+   },
+   "camera_movement": "orbit [0, -10] deg, 50mm -> 85mm, ease inOut, aperture 0.6",
+   "animation": {
+    "pulse": 1,
+    "glow": {
+     "from": 0.8,
+     "to": 1.3,
+     "at": [
+      0,
+      1
+     ],
+     "ease": "inOut"
+    },
+    "grow": {
+     "from": 0,
+     "to": 0.25,
+     "at": [
+      0.4,
+      1
+     ],
+     "ease": "inOut"
+    }
+   },
+   "motion_graphics": {
+    "labels": [
+     "Training stimulus"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "dissolve",
+    "dur": 0.6
+   },
+   "sound_design": [
+    "rhythmic pulses",
+    "swell"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S28",
+   "start": 85.0,
+   "end": 90.2,
+   "duration": 5.2,
+   "narration": "The approach shown in this training concept uses four weeks on and eight weeks off.",
+   "scene_description": "Twelve glass week-tiles light up: four lit in crimson, eight dimmed.",
+   "world": "timeline",
+   "main_subject": "12-week periodisation tiles",
+   "anatomical_requirements": "n/a",
+   "environment": "Reflective dark floor, volumetric backdrop",
+   "lighting": "Phase-coloured practical lights inside glass tiles",
+   "materials": "Dark glass with clearcoat, emissive labels",
+   "camera_position": {
+    "start": [
+     0,
+     1.8,
+     15.5
+    ],
+    "end": [
+     0,
+     1.3,
+     13.5
+    ],
+    "target_start": [
+     0,
+     0.3,
+     0
+    ],
+    "target_end": [
+     0,
+     0.3,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 28mm -> 28mm, ease inOut, aperture 0.35",
+   "animation": {
+    "mode": "onoff",
+    "reveal": {
+     "from": 0,
+     "to": 1,
+     "at": [
+      0.05,
+      0.7
+     ],
+     "ease": "inOut"
+    }
+   },
+   "motion_graphics": {
+    "labels": [
+     "4 weeks on",
+     "8 weeks off"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "dissolve",
+    "dur": 0.7
+   },
+   "sound_design": [
+    "tile clicks",
+    "pulse"
+   ],
+   "conceptual_visualization": false
+  },
+  {
+   "id": "S29",
+   "start": 90.2,
+   "end": 97.0,
+   "duration": 6.8,
+   "narration": "The idea is to organize demanding training blocks with extended periods away from that specific overload method.",
+   "scene_description": "Low tracking dolly along the tiles from the demanding block into the long recovery period.",
+   "world": "timeline",
+   "main_subject": "12-week periodisation tiles",
+   "anatomical_requirements": "n/a",
+   "environment": "Reflective dark floor, volumetric backdrop",
+   "lighting": "Phase-coloured practical lights inside glass tiles",
+   "materials": "Dark glass with clearcoat, emissive labels",
+   "camera_position": {
+    "start": [
+     -9.5,
+     0.5,
+     6.8
+    ],
+    "end": [
+     3.5,
+     0.7,
+     7.0
+    ],
+    "target_start": [
+     -4.5,
+     0.2,
+     0
+    ],
+    "target_end": [
+     6.5,
+     0.2,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 50mm -> 50mm, ease sine, aperture 0.6",
+   "animation": {
+    "mode": "onoff",
+    "reveal": 1
+   },
+   "motion_graphics": {
+    "labels": [
+     "Demanding block",
+     "Extended period away"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sound_design": [
+    "dolly whoosh"
+   ],
+   "conceptual_visualization": false
+  },
+  {
+   "id": "S30",
+   "start": 97.0,
+   "end": 102.0,
+   "duration": 5.0,
+   "narration": "This is a particular protocol, not a universally established requirement.",
+   "scene_description": "High angle; tiles return to neutral while a context note clarifies the protocol's status.",
+   "world": "timeline",
+   "main_subject": "12-week periodisation tiles",
+   "anatomical_requirements": "n/a",
+   "environment": "Reflective dark floor, volumetric backdrop",
+   "lighting": "Phase-coloured practical lights inside glass tiles",
+   "materials": "Dark glass with clearcoat, emissive labels",
+   "camera_position": {
+    "start": [
+     2.0,
+     4.5,
+     14.0
+    ],
+    "end": [
+     1.0,
+     3.5,
+     13.0
+    ],
+    "target_start": [
+     0,
+     0.2,
+     0
+    ],
+    "target_end": [
+     0,
+     0.2,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 35mm -> 35mm, ease inOut, aperture 0.4",
+   "animation": {
+    "mode": "neutral",
+    "reveal": 1
+   },
+   "motion_graphics": {
+    "labels": [],
+    "title": null,
+    "context_note": "This is one specific protocol. Periodisation schemes vary widely, and a 4-on / 8-off eccentric cycle is not an established requirement.",
+    "timer": false
+   },
+   "transition_in": {
+    "type": "dissolve",
+    "dur": 0.5
+   },
+   "sound_design": [
+    "neutral pad"
+   ],
+   "conceptual_visualization": false
+  },
+  {
+   "id": "S31",
+   "start": 102.0,
+   "end": 110.85,
+   "duration": 8.85,
+   "narration": "One technique highlighted in this approach is lowering the weight over approximately eight seconds during the final repetition.",
+   "scene_description": "Final repetition: the dumbbell is lowered over about eight seconds, timed by a minimal counter.",
+   "world": "body",
+   "main_subject": "Anonymous athletic human figure (SDF anatomy) with x-ray musculature",
+   "anatomical_requirements": "Pectoralis major, deltoid, biceps/triceps brachii, rectus abdominis, latissimus, trapezius; featureless head for anonymity",
+   "environment": "Dark studio void with contact floor and drifting dust",
+   "lighting": "Warm high key spot, warm + cyan rim spots, volumetric key shaft",
+   "materials": "Skin: SSS-approximated dielectric with pore-scale bump; muscle: fibrous tissue shader; x-ray fresnel shell + wireframe topology",
+   "camera_position": {
+    "start": [
+     1.6,
+     0.62,
+     2.0
+    ],
+    "end": [
+     1.3,
+     0.48,
+     1.55
+    ],
+    "target_start": [
+     -0.12,
+     0.3,
+     0
+    ],
+    "target_end": [
+     -0.2,
+     0.3,
+     0.02
+    ]
+   },
+   "camera_movement": "orbit [0, -18] deg, 70mm -> 70mm, ease sine, aperture 0.5",
+   "animation": {
+    "xray": {
+     "from": 0.3,
+     "to": 1,
+     "at": [
+      0,
+      0.2
+     ],
+     "ease": "inOut"
+    },
+    "curl": {
+     "from": 1.0,
+     "to": 0.04,
+     "at": [
+      0.11,
+      0.98
+     ],
+     "ease": "linear"
+    },
+    "dumbbell": 1,
+    "wire": 0.18,
+    "glowArm": {
+     "from": 0.5,
+     "to": 1.2,
+     "at": [
+      0,
+      1
+     ],
+     "ease": "inOut"
+    }
+   },
+   "motion_graphics": {
+    "labels": [],
+    "title": null,
+    "context_note": null,
+    "timer": true
+   },
+   "transition_in": {
+    "type": "dissolve",
+    "dur": 0.7
+   },
+   "sound_design": [
+    "clock ticks each second",
+    "tension drone"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S32",
+   "start": 110.85,
+   "end": 114.1,
+   "duration": 3.25,
+   "narration": "The emphasis is on controlling the movement rather than",
+   "scene_description": "Inside the fibre the sarcomeres lengthen slowly and evenly under load.",
+   "world": "sarcomere",
+   "main_subject": "Myofibril sarcomeres: actin, myosin cross-bridges, Z-discs, titin",
+   "anatomical_requirements": "Hexagonal thick-filament lattice, trigonal thin filaments, bare zone, Z-disc lattice, titin springs",
+   "environment": "Inside the muscle fibre, neighbouring myofibrils in fog",
+   "lighting": "Warm key, cyan rim, myosin-head glow under load",
+   "materials": "Clearcoated protein surfaces; emissive heads when force is produced",
+   "camera_position": {
+    "start": [
+     0.5,
+     2.6,
+     4.2
+    ],
+    "end": [
+     -0.6,
+     1.8,
+     3.6
+    ],
+    "target_start": [
+     0,
+     0,
+     0
+    ],
+    "target_end": [
+     0,
+     0,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 50mm -> 50mm, ease inOut, aperture 0.6",
+   "animation": {
+    "len": {
+     "from": 0.95,
+     "to": 1.15,
+     "at": [
+      0,
+      1
+     ],
+     "ease": "linear"
+    },
+    "active": 0.5,
+    "load": 0.8
+   },
+   "motion_graphics": {
+    "labels": [
+     "Controlled lengthening"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "push",
+    "dur": 0.45
+   },
+   "sound_design": [
+    "slow stretch"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S33",
+   "start": 114.1,
+   "end": 119.0,
+   "duration": 4.9,
+   "narration": "simply moving the weight as quickly as possible.",
+   "scene_description": "Side-by-side comparison: one arm lowers slowly under control, the other moves quickly.",
+   "world": "body",
+   "main_subject": "Anonymous athletic human figure (SDF anatomy) with x-ray musculature",
+   "anatomical_requirements": "Pectoralis major, deltoid, biceps/triceps brachii, rectus abdominis, latissimus, trapezius; featureless head for anonymity",
+   "environment": "Dark studio void with contact floor and drifting dust",
+   "lighting": "Warm high key spot, warm + cyan rim spots, volumetric key shaft",
+   "materials": "Skin: SSS-approximated dielectric with pore-scale bump; muscle: fibrous tissue shader; x-ray fresnel shell + wireframe topology",
+   "camera_position": {
+    "start": [
+     0.0,
+     0.55,
+     2.1
+    ],
+    "end": [
+     0.25,
+     0.5,
+     1.8
+    ],
+    "target_start": [
+     0,
+     0.3,
+     0
+    ],
+    "target_end": [
+     0,
+     0.3,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 50mm -> 50mm, ease inOut, aperture 0.35",
+   "animation": {
+    "xray": 1,
+    "curl": [
+     [
+      0,
+      1
+     ],
+     [
+      0.6,
+      0.05
+     ],
+     [
+      1,
+      0.05
+     ]
+    ],
+    "curlL": [
+     [
+      0,
+      0.9
+     ],
+     [
+      0.1,
+      0.1
+     ],
+     [
+      0.2,
+      0.9
+     ],
+     [
+      0.3,
+      0.1
+     ],
+     [
+      0.4,
+      0.9
+     ],
+     [
+      0.5,
+      0.1
+     ],
+     [
+      0.6,
+      0.9
+     ],
+     [
+      0.7,
+      0.1
+     ],
+     [
+      0.8,
+      0.9
+     ],
+     [
+      0.9,
+      0.1
+     ],
+     [
+      1,
+      0.5
+     ]
+    ],
+    "dumbbell": 1,
+    "wire": 0.16,
+    "glowArm": 0.8
+   },
+   "motion_graphics": {
+    "labels": [
+     "Controlled",
+     "Fast"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sound_design": [
+    "contrasting fast whips vs slow drone"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S34",
+   "start": 119.0,
+   "end": 125.1,
+   "duration": 6.1,
+   "narration": "The reel also presents an MA30 Aggression Intelligence Protocol.",
+   "scene_description": "Title card over a slowly separating muscle bundle.",
+   "world": "fibers",
+   "main_subject": "Skeletal muscle bundle: epimysium, fascicles, sectioned fibres",
+   "anatomical_requirements": "Epimysium > perimysium-wrapped fascicles > muscle fibres (Voronoi section) with myofibril network and mitochondria",
+   "environment": "Deep charcoal microscopic space with bokeh particulate",
+   "lighting": "Warm key spot with shadows, cyan rim, warm bounce from sectioned faces",
+   "materials": "Fibre-striated tissue (clearcoat moisture, SSS rim), emissive cut-face shader, translucent sheath",
+   "camera_position": {
+    "start": [
+     9.0,
+     3.0,
+     7.0
+    ],
+    "end": [
+     7.5,
+     1.2,
+     6.0
+    ],
+    "target_start": [
+     -1.5,
+     0,
+     0
+    ],
+    "target_end": [
+     -1.0,
+     0,
+     0
+    ]
+   },
+   "camera_movement": "orbit [0, 12] deg, 35mm -> 35mm, ease inOut, aperture 0.3",
+   "animation": {
+    "glow": 0.75,
+    "grow": 0.2,
+    "explode": {
+     "from": 0,
+     "to": 0.4,
+     "at": [
+      0,
+      1
+     ],
+     "ease": "inOut"
+    }
+   },
+   "motion_graphics": {
+    "labels": [],
+    "title": "MA30 Aggression Intelligence Protocol",
+    "context_note": "A named protocol presented in the source material, not a recognised scientific standard.",
+    "timer": false
+   },
+   "transition_in": {
+    "type": "dissolve",
+    "dur": 0.7
+   },
+   "sound_design": [
+    "title hit",
+    "pulse"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S35",
+   "start": 125.1,
+   "end": 128.0,
+   "duration": 2.9,
+   "narration": "It organizes training into different phases,",
+   "scene_description": "Week tiles light up in four phase colours.",
+   "world": "timeline",
+   "main_subject": "12-week periodisation tiles",
+   "anatomical_requirements": "n/a",
+   "environment": "Reflective dark floor, volumetric backdrop",
+   "lighting": "Phase-coloured practical lights inside glass tiles",
+   "materials": "Dark glass with clearcoat, emissive labels",
+   "camera_position": {
+    "start": [
+     0,
+     2.6,
+     15.5
+    ],
+    "end": [
+     0,
+     1.6,
+     13.5
+    ],
+    "target_start": [
+     0,
+     0.2,
+     0
+    ],
+    "target_end": [
+     0,
+     0.3,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 28mm -> 28mm, ease inOut, aperture 0.35",
+   "animation": {
+    "mode": "phases",
+    "reveal": {
+     "from": 0,
+     "to": 1,
+     "at": [
+      0,
+      0.8
+     ],
+     "ease": "inOut"
+    }
+   },
+   "motion_graphics": {
+    "labels": [],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "dissolve",
+    "dur": 0.5
+   },
+   "sound_design": [
+    "tile cascade"
+   ],
+   "conceptual_visualization": false
+  },
+  {
+   "id": "S36",
+   "start": 128.0,
+   "end": 129.75,
+   "duration": 1.75,
+   "narration": "combining strength work,",
+   "scene_description": "A heavy, powerful curl.",
+   "world": "body",
+   "main_subject": "Anonymous athletic human figure (SDF anatomy) with x-ray musculature",
+   "anatomical_requirements": "Pectoralis major, deltoid, biceps/triceps brachii, rectus abdominis, latissimus, trapezius; featureless head for anonymity",
+   "environment": "Dark studio void with contact floor and drifting dust",
+   "lighting": "Warm high key spot, warm + cyan rim spots, volumetric key shaft",
+   "materials": "Skin: SSS-approximated dielectric with pore-scale bump; muscle: fibrous tissue shader; x-ray fresnel shell + wireframe topology",
+   "camera_position": {
+    "start": [
+     0.9,
+     0.5,
+     1.8
+    ],
+    "end": [
+     0.75,
+     0.48,
+     1.6
+    ],
+    "target_start": [
+     -0.15,
+     0.3,
+     0
+    ],
+    "target_end": [
+     -0.15,
+     0.3,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 70mm -> 70mm, ease inOut, aperture 0.5",
+   "animation": {
+    "xray": 1,
+    "curl": [
+     [
+      0,
+      0.1
+     ],
+     [
+      0.45,
+      1.0
+     ],
+     [
+      1,
+      0.2
+     ]
+    ],
+    "dumbbell": 1,
+    "glowArm": 1.2,
+    "wire": 0.2
+   },
+   "motion_graphics": {
+    "labels": [
+     "Strength work"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sound_design": [
+    "impact"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S37",
+   "start": 129.75,
+   "end": 131.45,
+   "duration": 1.7,
+   "narration": "hypertrophy training,",
+   "scene_description": "Fascicles thicken: hypertrophy.",
+   "world": "fibers",
+   "main_subject": "Skeletal muscle bundle: epimysium, fascicles, sectioned fibres",
+   "anatomical_requirements": "Epimysium > perimysium-wrapped fascicles > muscle fibres (Voronoi section) with myofibril network and mitochondria",
+   "environment": "Deep charcoal microscopic space with bokeh particulate",
+   "lighting": "Warm key spot with shadows, cyan rim, warm bounce from sectioned faces",
+   "materials": "Fibre-striated tissue (clearcoat moisture, SSS rim), emissive cut-face shader, translucent sheath",
+   "camera_position": {
+    "start": [
+     3.0,
+     0.5,
+     2.2
+    ],
+    "end": [
+     2.7,
+     0.4,
+     2.0
+    ],
+    "target_start": [
+     0.5,
+     0,
+     0
+    ],
+    "target_end": [
+     0.5,
+     0,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 85mm -> 85mm, ease inOut, aperture 0.8",
+   "animation": {
+    "grow": {
+     "from": 0.1,
+     "to": 0.7,
+     "at": [
+      0,
+      1
+     ],
+     "ease": "inOut"
+    },
+    "glow": 1.1
+   },
+   "motion_graphics": {
+    "labels": [
+     "Hypertrophy training"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sound_design": [
+    "swell"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S38",
+   "start": 131.45,
+   "end": 132.95,
+   "duration": 1.5,
+   "narration": "slow negatives,",
+   "scene_description": "Sarcomeres lengthening slowly.",
+   "world": "sarcomere",
+   "main_subject": "Myofibril sarcomeres: actin, myosin cross-bridges, Z-discs, titin",
+   "anatomical_requirements": "Hexagonal thick-filament lattice, trigonal thin filaments, bare zone, Z-disc lattice, titin springs",
+   "environment": "Inside the muscle fibre, neighbouring myofibrils in fog",
+   "lighting": "Warm key, cyan rim, myosin-head glow under load",
+   "materials": "Clearcoated protein surfaces; emissive heads when force is produced",
+   "camera_position": {
+    "start": [
+     2.0,
+     0.6,
+     2.6
+    ],
+    "end": [
+     1.6,
+     0.6,
+     2.4
+    ],
+    "target_start": [
+     0,
+     0,
+     0
+    ],
+    "target_end": [
+     0,
+     0,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 85mm -> 85mm, ease inOut, aperture 0.7",
+   "animation": {
+    "len": {
+     "from": 0.95,
+     "to": 1.15,
+     "at": [
+      0,
+      1
+     ],
+     "ease": "linear"
+    },
+    "active": 0.5,
+    "load": 0.9
+   },
+   "motion_graphics": {
+    "labels": [
+     "Slow negatives"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sound_design": [
+    "stretch"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S39",
+   "start": 132.95,
+   "end": 136.0,
+   "duration": 3.05,
+   "narration": "and recovery-focused methods.",
+   "scene_description": "Repair: protein synthesis continues calmly.",
+   "world": "synthesis",
+   "main_subject": "Protein synthesis and mitochondrial energy production (conceptual)",
+   "anatomical_requirements": "Ribosome subunits, mRNA, nascent polypeptide, amino acids, mitochondrion with cristae",
+   "environment": "Sarcoplasm interior",
+   "lighting": "Key spot, cyan rim, warm fill",
+   "materials": "Protein clusters, translucent outer membrane, emissive cristae and ATP",
+   "camera_position": {
+    "start": [
+     -1.0,
+     1.8,
+     7.5
+    ],
+    "end": [
+     -0.6,
+     1.5,
+     6.5
+    ],
+    "target_start": [
+     -1.4,
+     1.2,
+     0
+    ],
+    "target_end": [
+     -1.2,
+     1.2,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 50mm -> 50mm, ease inOut, aperture 0.5",
+   "animation": {
+    "chain": {
+     "from": 0.5,
+     "to": 0.95,
+     "at": [
+      0,
+      1
+     ],
+     "ease": "inOut"
+    },
+    "aa": 0.9,
+    "fuel": 0.4,
+    "atp": 0.4
+   },
+   "motion_graphics": {
+    "labels": [
+     "Recovery-focused methods"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sound_design": [
+    "calm chime"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S40",
+   "start": 136.0,
+   "end": 142.0,
+   "duration": 6.0,
+   "narration": "The displayed schedule describes four weeks of strength and hypertrophy work,",
+   "scene_description": "Weeks 1-4 rise and glow crimson.",
+   "world": "timeline",
+   "main_subject": "12-week periodisation tiles",
+   "anatomical_requirements": "n/a",
+   "environment": "Reflective dark floor, volumetric backdrop",
+   "lighting": "Phase-coloured practical lights inside glass tiles",
+   "materials": "Dark glass with clearcoat, emissive labels",
+   "camera_position": {
+    "start": [
+     -8.0,
+     1.2,
+     6.5
+    ],
+    "end": [
+     -6.0,
+     1.0,
+     5.2
+    ],
+    "target_start": [
+     -4.6,
+     0.3,
+     0
+    ],
+    "target_end": [
+     -4.6,
+     0.4,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 50mm -> 50mm, ease inOut, aperture 0.6",
+   "animation": {
+    "mode": "phases",
+    "reveal": 1,
+    "focusPhase": 0
+   },
+   "motion_graphics": {
+    "labels": [
+     "Weeks 1-4"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "dissolve",
+    "dur": 0.6
+   },
+   "sound_design": [
+    "tile rise"
+   ],
+   "conceptual_visualization": false
+  },
+  {
+   "id": "S41",
+   "start": 142.0,
+   "end": 144.75,
+   "duration": 2.75,
+   "narration": "four weeks emphasizing slow negatives,",
+   "scene_description": "Weeks 5-8 glow amber.",
+   "world": "timeline",
+   "main_subject": "12-week periodisation tiles",
+   "anatomical_requirements": "n/a",
+   "environment": "Reflective dark floor, volumetric backdrop",
+   "lighting": "Phase-coloured practical lights inside glass tiles",
+   "materials": "Dark glass with clearcoat, emissive labels",
+   "camera_position": {
+    "start": [
+     -1.0,
+     1.0,
+     6.0
+    ],
+    "end": [
+     0.2,
+     1.1,
+     5.6
+    ],
+    "target_start": [
+     -0.6,
+     0.3,
+     0
+    ],
+    "target_end": [
+     -0.6,
+     0.3,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 50mm -> 50mm, ease inOut, aperture 0.6",
+   "animation": {
+    "mode": "phases",
+    "reveal": 1,
+    "focusPhase": 1
+   },
+   "motion_graphics": {
+    "labels": [
+     "Weeks 5-8"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sound_design": [
+    "tile rise"
+   ],
+   "conceptual_visualization": false
+  },
+  {
+   "id": "S42",
+   "start": 144.75,
+   "end": 147.55,
+   "duration": 2.8,
+   "narration": "three weeks using rest-pause and cluster sets,",
+   "scene_description": "Weeks 9-11 glow cyan.",
+   "world": "timeline",
+   "main_subject": "12-week periodisation tiles",
+   "anatomical_requirements": "n/a",
+   "environment": "Reflective dark floor, volumetric backdrop",
+   "lighting": "Phase-coloured practical lights inside glass tiles",
+   "materials": "Dark glass with clearcoat, emissive labels",
+   "camera_position": {
+    "start": [
+     6.5,
+     0.8,
+     6.0
+    ],
+    "end": [
+     5.6,
+     1.0,
+     5.4
+    ],
+    "target_start": [
+     4.0,
+     0.3,
+     0
+    ],
+    "target_end": [
+     4.0,
+     0.3,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 50mm -> 50mm, ease inOut, aperture 0.6",
+   "animation": {
+    "mode": "phases",
+    "reveal": 1,
+    "focusPhase": 2
+   },
+   "motion_graphics": {
+    "labels": [
+     "Weeks 9-11"
+    ],
+    "title": null,
+    "context_note": "Rest-pause and cluster sets insert short rests within a set so more repetitions can be performed with a given load.",
+    "timer": false
+   },
+   "transition_in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sound_design": [
+    "tile rise"
+   ],
+   "conceptual_visualization": false
+  },
+  {
+   "id": "S43",
+   "start": 147.55,
+   "end": 150.0,
+   "duration": 2.45,
+   "narration": "and one scheduled deload week.",
+   "scene_description": "Week 12 glows pale blue: the deload.",
+   "world": "timeline",
+   "main_subject": "12-week periodisation tiles",
+   "anatomical_requirements": "n/a",
+   "environment": "Reflective dark floor, volumetric backdrop",
+   "lighting": "Phase-coloured practical lights inside glass tiles",
+   "materials": "Dark glass with clearcoat, emissive labels",
+   "camera_position": {
+    "start": [
+     10.6,
+     1.4,
+     5.2
+    ],
+    "end": [
+     10.0,
+     1.2,
+     4.7
+    ],
+    "target_start": [
+     7.0,
+     0.4,
+     0
+    ],
+    "target_end": [
+     7.0,
+     0.5,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 50mm -> 50mm, ease inOut, aperture 0.7",
+   "animation": {
+    "mode": "phases",
+    "reveal": 1,
+    "focusPhase": 3
+   },
+   "motion_graphics": {
+    "labels": [
+     "Week 12"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sound_design": [
+    "soft tone"
+   ],
+   "conceptual_visualization": false
+  },
+  {
+   "id": "S44",
+   "start": 150.0,
+   "end": 155.0,
+   "duration": 5.0,
+   "narration": "Each phase has a different training emphasis.",
+   "scene_description": "Pull back to show all four phases, each with a different emphasis.",
+   "world": "timeline",
+   "main_subject": "12-week periodisation tiles",
+   "anatomical_requirements": "n/a",
+   "environment": "Reflective dark floor, volumetric backdrop",
+   "lighting": "Phase-coloured practical lights inside glass tiles",
+   "materials": "Dark glass with clearcoat, emissive labels",
+   "camera_position": {
+    "start": [
+     0,
+     3.2,
+     13.0
+    ],
+    "end": [
+     0,
+     2.0,
+     16.5
+    ],
+    "target_start": [
+     0,
+     0.3,
+     0
+    ],
+    "target_end": [
+     0,
+     0.4,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 28mm -> 28mm, ease sine, aperture 0.35",
+   "animation": {
+    "mode": "phases",
+    "reveal": 1,
+    "focusPhase": -1
+   },
+   "motion_graphics": {
+    "labels": [
+     "Strength + hypertrophy",
+     "Slow negatives",
+     "Rest-pause \u00b7 cluster",
+     "Deload"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sound_design": [
+    "resolve chord"
+   ],
+   "conceptual_visualization": false
+  },
+  {
+   "id": "S45",
+   "start": 155.0,
+   "end": 158.55,
+   "duration": 3.55,
+   "narration": "The twelfth week is presented as a deload week,",
+   "scene_description": "Week 12 rises from the row.",
+   "world": "timeline",
+   "main_subject": "12-week periodisation tiles",
+   "anatomical_requirements": "n/a",
+   "environment": "Reflective dark floor, volumetric backdrop",
+   "lighting": "Phase-coloured practical lights inside glass tiles",
+   "materials": "Dark glass with clearcoat, emissive labels",
+   "camera_position": {
+    "start": [
+     10.0,
+     2.0,
+     6.0
+    ],
+    "end": [
+     9.4,
+     1.5,
+     4.6
+    ],
+    "target_start": [
+     7.0,
+     0.6,
+     0
+    ],
+    "target_end": [
+     7.1,
+     0.7,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 50mm -> 50mm, ease inOut, aperture 0.6",
+   "animation": {
+    "mode": "phases",
+    "reveal": 1,
+    "focusPhase": 3,
+    "raise12": {
+     "from": 0,
+     "to": 1,
+     "at": [
+      0,
+      1
+     ],
+     "ease": "inOut"
+    }
+   },
+   "motion_graphics": {
+    "labels": [
+     "Week 12"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "dissolve",
+    "dur": 0.6
+   },
+   "sound_design": [
+    "rise tone"
+   ],
+   "conceptual_visualization": false
+  },
+  {
+   "id": "S46",
+   "start": 158.55,
+   "end": 160.95,
+   "duration": 2.4,
+   "narration": "with lower weights and slower tempos.",
+   "scene_description": "A light, slow curl with a calmer glow.",
+   "world": "body",
+   "main_subject": "Anonymous athletic human figure (SDF anatomy) with x-ray musculature",
+   "anatomical_requirements": "Pectoralis major, deltoid, biceps/triceps brachii, rectus abdominis, latissimus, trapezius; featureless head for anonymity",
+   "environment": "Dark studio void with contact floor and drifting dust",
+   "lighting": "Warm high key spot, warm + cyan rim spots, volumetric key shaft",
+   "materials": "Skin: SSS-approximated dielectric with pore-scale bump; muscle: fibrous tissue shader; x-ray fresnel shell + wireframe topology",
+   "camera_position": {
+    "start": [
+     0.8,
+     0.6,
+     1.7
+    ],
+    "end": [
+     0.7,
+     0.55,
+     1.5
+    ],
+    "target_start": [
+     -0.1,
+     0.32,
+     0
+    ],
+    "target_end": [
+     -0.1,
+     0.32,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 50mm -> 50mm, ease inOut, aperture 0.4",
+   "animation": {
+    "xray": 1,
+    "curl": [
+     [
+      0,
+      0.1
+     ],
+     [
+      0.45,
+      0.8
+     ],
+     [
+      1,
+      0.1
+     ]
+    ],
+    "dumbbell": 1,
+    "glowArm": 0.3,
+    "wire": 0.14
+   },
+   "motion_graphics": {
+    "labels": [
+     "Lower load \u00b7 slower tempo"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "dissolve",
+    "dur": 0.5
+   },
+   "sound_design": [
+    "calm drone"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S47",
+   "start": 160.95,
+   "end": 167.3,
+   "duration": 6.35,
+   "narration": "The bigger lesson is that training stress must be balanced with recovery, nutrition, and consistency.",
+   "scene_description": "Balance: the muscle bundle with training stress, recovery, nutrition and consistency appearing as spoken.",
+   "world": "fibers",
+   "main_subject": "Skeletal muscle bundle: epimysium, fascicles, sectioned fibres",
+   "anatomical_requirements": "Epimysium > perimysium-wrapped fascicles > muscle fibres (Voronoi section) with myofibril network and mitochondria",
+   "environment": "Deep charcoal microscopic space with bokeh particulate",
+   "lighting": "Warm key spot with shadows, cyan rim, warm bounce from sectioned faces",
+   "materials": "Fibre-striated tissue (clearcoat moisture, SSS rim), emissive cut-face shader, translucent sheath",
+   "camera_position": {
+    "start": [
+     7.5,
+     2.2,
+     6.0
+    ],
+    "end": [
+     6.2,
+     1.6,
+     4.8
+    ],
+    "target_start": [
+     -1.0,
+     0,
+     0
+    ],
+    "target_end": [
+     -0.8,
+     0,
+     0
+    ]
+   },
+   "camera_movement": "orbit [0, -12] deg, 35mm -> 35mm, ease inOut, aperture 0.35",
+   "animation": {
+    "glow": 0.9,
+    "grow": {
+     "from": 0.1,
+     "to": 0.35,
+     "at": [
+      0,
+      1
+     ],
+     "ease": "inOut"
+    }
+   },
+   "motion_graphics": {
+    "labels": [
+     "Training stress",
+     "Recovery",
+     "Nutrition",
+     "Consistency"
+    ],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "dissolve",
+    "dur": 0.6
+   },
+   "sound_design": [
+    "balanced pad"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S48",
+   "start": 167.3,
+   "end": 170.05,
+   "duration": 2.75,
+   "narration": "Train intelligently, recover properly,",
+   "scene_description": "Pull back from the chest to reveal the whole x-ray figure: train intelligently, recover properly.",
+   "world": "body",
+   "main_subject": "Anonymous athletic human figure (SDF anatomy) with x-ray musculature",
+   "anatomical_requirements": "Pectoralis major, deltoid, biceps/triceps brachii, rectus abdominis, latissimus, trapezius; featureless head for anonymity",
+   "environment": "Dark studio void with contact floor and drifting dust",
+   "lighting": "Warm high key spot, warm + cyan rim spots, volumetric key shaft",
+   "materials": "Skin: SSS-approximated dielectric with pore-scale bump; muscle: fibrous tissue shader; x-ray fresnel shell + wireframe topology",
+   "camera_position": {
+    "start": [
+     0.0,
+     0.45,
+     1.2
+    ],
+    "end": [
+     0.0,
+     0.5,
+     2.4
+    ],
+    "target_start": [
+     0,
+     0.35,
+     0
+    ],
+    "target_end": [
+     0,
+     0.32,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 50mm -> 35mm, ease sine, aperture 0.4",
+   "animation": {
+    "xray": 1,
+    "curl": 0.15,
+    "curlL": 0.15,
+    "dumbbell": 0,
+    "wire": 0.18,
+    "glowArm": 0.5,
+    "hyper": 0.5
+   },
+   "motion_graphics": {
+    "labels": [],
+    "title": null,
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "cut",
+    "dur": 0
+   },
+   "sound_design": [
+    "swell"
+   ],
+   "conceptual_visualization": true
+  },
+  {
+   "id": "S49",
+   "start": 170.05,
+   "end": 172.37,
+   "duration": 2.32,
+   "narration": "and understand the process.",
+   "scene_description": "Final pull-back from the muscle bundle with the closing title, fading to black.",
+   "world": "fibers",
+   "main_subject": "Skeletal muscle bundle: epimysium, fascicles, sectioned fibres",
+   "anatomical_requirements": "Epimysium > perimysium-wrapped fascicles > muscle fibres (Voronoi section) with myofibril network and mitochondria",
+   "environment": "Deep charcoal microscopic space with bokeh particulate",
+   "lighting": "Warm key spot with shadows, cyan rim, warm bounce from sectioned faces",
+   "materials": "Fibre-striated tissue (clearcoat moisture, SSS rim), emissive cut-face shader, translucent sheath",
+   "camera_position": {
+    "start": [
+     4.0,
+     0.8,
+     2.8
+    ],
+    "end": [
+     9.5,
+     3.0,
+     8.0
+    ],
+    "target_start": [
+     0.5,
+     0,
+     0
+    ],
+    "target_end": [
+     -1.0,
+     0,
+     0
+    ]
+   },
+   "camera_movement": "dolly/track, 50mm -> 35mm, ease sine, aperture 0.4",
+   "animation": {
+    "glow": 1.0,
+    "grow": 0.35
+   },
+   "motion_graphics": {
+    "labels": [],
+    "title": "Understand the Process",
+    "context_note": null,
+    "timer": false
+   },
+   "transition_in": {
+    "type": "dissolve",
+    "dur": 0.5
+   },
+   "sound_design": [
+    "final hit",
+    "music resolve"
+   ],
+   "conceptual_visualization": true
+  }
+ ]
+}

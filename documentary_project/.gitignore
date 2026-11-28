@@ -1,0 +1,7 @@
+node_modules/
+renders/
+previews/**/*.part.mp4
+audio/*.wav
+keyframes/*.png
+output/*_master*.mp4
+*.part.mp4

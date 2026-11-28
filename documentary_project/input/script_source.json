@@ -1,0 +1,22 @@
+[
+ {"id":1,"start":0,"end":17,"title":"THE SCIENCE OF MUSCLE GROWTH","keys":["muscle","training","nutrition","recovery","adaptation"],
+  "text":"Building muscle is not simply about lifting heavier weights. It is about understanding how your body responds to training, nutrition, recovery, and the signals that drive adaptation."},
+ {"id":2,"start":17,"end":34,"title":"GLUCOSE BASED POWDERS","keys":["dextrose","cyclic","dextrin","karbolyn","carbohydrate","energy","glucose-based"],
+  "text":"Glucose-based carbohydrate powders include dextrose, highly branched cyclic dextrin, and Karbolyn. These products provide carbohydrates that can support energy availability around demanding training sessions."},
+ {"id":3,"start":34,"end":51,"title":"GLUCOSE AND MUSCLE METABOLISM","keys":["glucose","metabolism","energy","glycogen","hormonal","context"],
+  "text":"Glucose plays an important role in metabolism. It supplies energy, supports glycogen replenishment, and can influence the hormonal environment surrounding exercise. Its effects depend on the wider nutritional and training context."},
+ {"id":4,"start":51,"end":68,"title":"ANABOLIC AND ANTI-CATABOLIC","keys":["anabolic","insulin","amino","acids","alone","guarantee"],
+  "text":"Glucose can contribute to an anabolic environment by supporting insulin signaling and recovery nutrition. It can also help spare amino acids from being used as an energy source. But carbohydrates alone do not guarantee muscle growth."},
+ {"id":5,"start":68,"end":85,"title":"ECCENTRIC OVERLOAD TRAINING","keys":["eccentric","overload","lowering","lengthening","stimulus"],
+  "text":"Another training concept is eccentric overload. This focuses on the lowering phase of a movement, where muscles produce force while lengthening. Controlled eccentric training can create a powerful training stimulus."},
+ {"id":6,"start":85,"end":102,"title":"FOUR WEEKS ON / EIGHT WEEKS OFF","keys":["four","eight","weeks","protocol","overload"],
+  "text":"The approach shown in this training concept uses four weeks on and eight weeks off. The idea is to organize demanding training blocks with extended periods away from that specific overload method. This is a particular protocol, not a universally established requirement."},
+ {"id":7,"start":102,"end":119,"title":"THE EIGHT SECOND NEGATIVE","keys":["eight","seconds","final","controlling","control"],
+  "text":"One technique highlighted in this approach is lowering the weight over approximately eight seconds during the final repetition. The emphasis is on controlling the movement rather than simply moving the weight as quickly as possible."},
+ {"id":8,"start":119,"end":136,"title":"MA30 AGGRESSION INTELLIGENCE PROTOCOL","keys":["ma30","aggression","intelligence","protocol","strength","hypertrophy","negatives","recovery-focused"],
+  "text":"The reel also presents an MA30 Aggression Intelligence Protocol. It organizes training into different phases, combining strength work, hypertrophy training, slow negatives, and recovery-focused methods."},
+ {"id":9,"start":136,"end":155,"title":"THE TRAINING PHASES","keys":["four","three","one","deload","rest-pause","cluster","negatives","strength","hypertrophy"],
+  "text":"The displayed schedule describes four weeks of strength and hypertrophy work, four weeks emphasizing slow negatives, three weeks using rest-pause and cluster sets, and one scheduled deload week. Each phase has a different training emphasis."},
+ {"id":10,"start":155,"end":172,"title":"THE FINAL DELOAD","keys":["twelfth","deload","recovery","nutrition","consistency","intelligently","properly","process"],
+  "text":"The twelfth week is presented as a deload week, with lower weights and slower tempos. The bigger lesson is that training stress must be balanced with recovery, nutrition, and consistency. Train intelligently, recover properly, and understand the process."}
+]
